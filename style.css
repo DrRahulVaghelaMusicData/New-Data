@@ -1,0 +1,689 @@
+body {
+    scroll-behavior: smooth;
+    touch-action: smooth;
+}
+
+.Loader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    z-index: 99;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.Loader.hidden {
+    display: none;
+}
+
+.movlogo {
+    position: relative;
+    width: 100px;
+    justify-content: center;
+    align-content: center;
+    top: 300px;
+}
+
+@keyframes rotatingloader {
+    0% {
+        opacity: 0;
+        transform: rotateZ(1000deg);
+        -webkit-transform: rotateZ(1000deg);
+        -moz-transform: rotateZ(1000deg);
+        -ms-transform: rotateZ(1000deg);
+        -o-transform: rotateZ(1000deg);
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: rotateZ(2000deg);
+        -webkit-transform: rotateZ(2000deg);
+        -moz-transform: rotateZ(2000deg);
+        -ms-transform: rotateZ(2000deg);
+        -o-transform: rotateZ(2000deg);
+    }
+}
+
+.movlogo>img {
+    width: 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: 1px 1px 66px rgb(144, 75, 255);
+    animation: rotatingloader 1s infinite ease;
+    -webkit-animation: rotatingloader 1s infinite ease;
+}
+
+.CookiePolicypagepop {
+    width: 100%;
+    left: 0;
+    position: fixed;
+    height: 250px;
+    background-color: rgb(201, 201, 201);
+    z-index: 50;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    top: 200px;
+    color: white;
+}
+
+.Cookietitl {
+    width: 100%;
+    color: grey;
+    letter-spacing: 10px;
+}
+
+.Buttonsoftermsd {
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.Buttonsoftermsd a {
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+.Buttncooki {
+    text-align: center;
+    color: white;
+    position: relative;
+    width: 100%;
+    top: 20px;
+    align-content: center;
+}
+
+.AcceptButtncooki {
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    align-content: center;
+}
+
+.websitetitle {
+    width: 100%;
+    background-color: rgb(170, 170, 170);
+    height: 300px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+    color: white;
+    animation: littleslowflash 20s infinite ease;
+    -webkit-animation: littleslowflash 20s infinite ease;
+    cursor: default;
+    text-decoration: none;
+}
+
+.websitetitle a {
+    text-decoration: none;
+}
+
+@keyframes littleslowflash {
+    0% {
+        opacity: 0;
+        color: white;
+        background-color: rgb(0, 0, 0);
+    }
+    50% {
+        opacity: 1;
+        color: rgb(0, 0, 0);
+        background-color: white;
+    }
+    100% {
+        opacity: 0;
+        color: white;
+        background-color: rgb(0, 0, 0);
+    }
+}
+
+.Lettersoftitle {
+    top: 130px;
+    position: relative;
+    color: white;
+    letter-spacing: 10px;
+    text-decoration: none;
+}
+
+.Navbar {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    outline: none;
+}
+
+.Homebuttonnav {
+    text-decoration: none;
+    color: grey;
+    cursor: pointer;
+    padding-right: 40px;
+    transition: 1s ease;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -ms-transition: 1s ease;
+    -o-transition: 1s ease;
+    outline: none;
+    -webkit-tap-highlight-color: white;
+}
+
+.Homebuttonnav:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.Musicbutton:hover {
+    color: black;
+}
+
+.Musicbutton {
+    text-decoration: none;
+    color: grey;
+    transition: 1s ease;
+    -webkit-transition: ;
+    -moz-transition: ;
+    -ms-transition: ;
+    -o-transition: ;
+    outline: none;
+    -webkit-tap-highlight-color: white;
+}
+
+.Newmusicbutton:hover {
+    color: black;
+}
+
+.Newmusicbutton {
+    text-decoration: none;
+    color: grey;
+    padding-left: 40px;
+    transition: 1s ease;
+    -webkit-transition: ;
+    -moz-transition: ;
+    -ms-transition: ;
+    -o-transition: ;
+    -webkit-tap-highlight-color: white;
+}
+
+.Contactbutton:hover {
+    color: black;
+}
+
+.Contactbutton {
+    text-decoration: none;
+    color: grey;
+    padding-left: 40px;
+    transition: 1s ease;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -ms-transition: 1s ease;
+    -o-transition: 1s ease;
+    -webkit-tap-highlight-color: white;
+}
+
+#Hamburger {
+    position: absolute;
+    cursor: pointer;
+    left: 10px;
+    top: 450px;
+    transition: margin-left 2s ease-out;
+    -webkit-transition: ;
+    -moz-transition: ;
+    -ms-transition: ;
+    -o-transition: ;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    -webkit-tap-highlight-color: transparent;
+    padding-bottom: 10px;
+}
+
+.Closeit {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    position: relative;
+    left: 40px;
+    text-decoration: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.SitesliderNav a {
+    text-decoration: none;
+    padding: 20px 20px 13px 10px;
+    display: block;
+    color: white;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.SitesliderNav a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.SitesliderNav {
+    position: fixed;
+    padding-top: 120px;
+    height: 100%;
+    width: 0px;
+    background-color: silver;
+    text-decoration: none;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    transition: 0.2s ease-in-out;
+    overflow-x: hidden;
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -ms-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    animation: slidehere 10s ease-in-out;
+    -webkit-animation: slidehere 10s ease-in-out;
+    box-shadow: 1px 1px 10px rgb(167, 167, 167);
+    -webkit-tap-highlight-color: transparent;
+}
+
+@keyframes slidehere {
+    0% {
+        opacity: 0.5;
+        background-color: goldenrod;
+    }
+    100% {
+        opacity: 1;
+        background-color: silver;
+    }
+}
+
+.Closeitid1coookie {
+    text-decoration: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    left: 10px;
+}
+
+.FeaturedUpcomingWork {
+    display: flex;
+    position: relative;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    top: 150px;
+    justify-content: center;
+    align-content: center;
+    -webkit-tap-highlight-color: transparent;
+}
+
+@keyframes simpleanimation {
+    0% {
+        opacity: 0;
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: scale(0.004);
+        -webkit-transform: scale(0.004);
+        -moz-transform: scale(0.004);
+        -ms-transform: scale(0.004);
+        -o-transform: scale(0.004);
+    }
+}
+
+.FirstRelease {
+    width: 200px;
+    animation: simpleanimation infinite 5s ease;
+    -webkit-animation: simpleanimation infinite 5s ease;
+}
+
+.FirstRelease>img {
+    width: 100%;
+}
+
+.FirstRelease:hover {
+    animation: none;
+    -webkit-animation: none;
+}
+
+.SecondRelease:hover {
+    animation: none;
+    -webkit-animation: none;
+}
+
+.SecondRelease {
+    opacity: 1;
+    width: 200px;
+    animation: simpleanimation infinite 15s ease-in;
+    -webkit-animation: simpleanimation infinite 15s ease-in;
+}
+
+.SecondRelease>img {
+    width: 100%;
+}
+
+.ThridRelease:hover {
+    animation: none;
+    -webkit-animation: none;
+}
+
+.ThridRelease {
+    width: 200px;
+    animation: simpleanimation infinite 10s ease-in;
+    -webkit-animation: simpleanimation infinite 10s ease-in;
+}
+
+.ThridRelease>img {
+    width: 100%;
+}
+
+.FourthRelease:hover {
+    animation: none;
+    -webkit-animation: none;
+}
+
+.FourthRelease {
+    width: 200px;
+    animation: simpleanimation infinite 20s ease-in;
+    -webkit-animation: simpleanimation infinite 20s ease-in;
+}
+
+.FourthRelease>img {
+    width: 100%;
+}
+
+.FifthRelease:hover {
+    animation: none;
+    -webkit-animation: none;
+}
+
+.FifthRelease {
+    width: 200px;
+    animation: simpleanimation infinite 30s ease-in;
+    -webkit-animation: simpleanimation infinite 30s ease-in;
+}
+
+.FifthRelease>img {
+    width: 100%;
+}
+
+.linkofthisnew {
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.Mainfirsttitle {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: rgb(131, 131, 131);
+    top: 150px;
+    letter-spacing: 10px;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.ThemeTracks {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    color: gray;
+    letter-spacing: 10px;
+}
+
+.Secondtitleoftheme {
+    width: 100%;
+    letter-spacing: 2px;
+    color: rgb(65, 64, 63);
+}
+
+.underwordsthemetitle {
+    width: 100%;
+    text-align: center;
+    letter-spacing: 1px;
+    color: rgb(78, 78, 78);
+    line-height: 1;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.MusicDigitalPlateforms {
+    display: flex;
+    width: 100%;
+    position: relative;
+    height: 30px;
+    top: 200px;
+    -webkit-tap-highlight-color: transparent;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.SpotifyArtist {
+    width: 30px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding-right: 50px;
+}
+
+.SpotifyArtist>img {
+    width: 100%;
+}
+
+.YoutubeArtist {
+    width: 40px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding-right: 50px;
+}
+
+.YoutubeArtist>img {
+    width: 100%;
+}
+
+.TuneinArtist {
+    width: 70px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    position: relative;
+    top: 5px;
+    padding-right: 50px;
+}
+
+.TuneinArtist>img {
+    width: 100%;
+}
+
+.ApplemusicArtist {
+    width: 30px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.ApplemusicArtist>img {
+    width: 100%;
+}
+
+.Iheartradioartist {
+    width: 30px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    position: relative;
+    padding-left: 50px;
+}
+
+.Iheartradioartist>img {
+    width: 100%;
+}
+
+.WorkTitles {
+    width: 100%;
+    color: rgb(110, 110, 110);
+    text-align: center;
+    justify-content: center;
+    display: block;
+    position: relative;
+    top: 200px;
+}
+
+.Homefooter {
+    width: 100%;
+    height: 300px;
+    background-color: grey;
+    position: relative;
+    top: 250px;
+}
+
+.Credit {
+    width: 100%;
+    background-color: rgb(124, 124, 124);
+    position: relative;
+    top: 200px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    color: rgb(199, 199, 199);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 8px;
+    letter-spacing: 1px;
+}
+
+@media only screen and (min-width:50px) and (max-width:800px) {
+    .websitetitle {
+        font-size: 10px;
+        letter-spacing: 1px;
+        height: 100px;
+        position: relative;
+        top: 10px;
+    }
+    .Lettersoftitle {
+        position: relative;
+        top: 50px;
+        letter-spacing: 1px;
+    }
+    .Navbar {
+        top: 20px;
+        font-size: 10px;
+    }
+    #Hamburger {
+        top: 150px;
+    }
+    .SitesliderNav {
+        padding-top: 100px;
+        font-size: 10px;
+    }
+    .FeaturedUpcomingWork {
+        position: relative;
+        height: 90px;
+    }
+    .Mainfirsttitle {
+        font-size: 13px;
+    }
+    .ThemeTracks {
+        font-size: 10px;
+        letter-spacing: 1px;
+        position: relative;
+        bottom: 50px;
+    }
+    .TitleTheme {
+        position: relative;
+        bottom: 20px;
+    }
+    .SpotifyArtist {
+        width: 20px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .YoutubeArtist {
+        width: 30px;
+        padding-right: 10px;
+    }
+    .TuneinArtist {
+        width: 50px;
+        padding-right: 10px;
+    }
+    .ApplemusicArtist {
+        width: 20px;
+    }
+    .Iheartradioartist {
+        width: 20px;
+        padding-left: 10px;
+    }
+    .CookiePolicypagepop {
+        font-size: 10px;
+    }
+    .Cookietitl {
+        letter-spacing: 1px;
+    }
+    .Buttncooki {
+        padding-right: 10px;
+        padding-left: 50px;
+        position: relative;
+        transform: translateY(-10px);
+        -webkit-transform: translateY(-10px);
+        -moz-transform: translateY(-10px);
+        -ms-transform: translateY(-10px);
+        -o-transform: translateY(-10px);
+    }
+    .CookiePolicypagepop {
+        height: 180px;
+    }
+    .AcceptButtncooki {
+        padding-left: 50px;
+    }
+}
+
+.Qrcode {
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    top: 200px;
+}
+
+@media only screen and (min-width:10px) and (max-width:700px) {
+    .movlogo {
+        position: relative;
+        width: 100px;
+        justify-content: center;
+        align-content: center;
+        top: 200px;
+    }
+}

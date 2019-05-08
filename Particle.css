@@ -1,0 +1,331 @@
+body {
+    scroll-behavior: smooth;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.Mainheading {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(110, 110, 110);
+}
+
+.wordsofhead {
+    width: 100%;
+    position: relative;
+    top: 130px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    letter-spacing: 5px;
+}
+
+.Navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+.buttonhome:hover {
+    color: black;
+}
+
+.buttonhome {
+    text-decoration: none;
+    color: grey;
+    cursor: pointer;
+    padding-right: 30px;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    outline: none;
+    -webkit-tap-highlight-color: white;
+}
+
+.ButtonMusic:hover {
+    color: black;
+}
+
+.ButtonMusic {
+    cursor: pointer;
+    text-decoration: none;
+    color: grey;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    outline: none;
+    -webkit-tap-highlight-color: white;
+}
+
+.Buttonreleases:hover {
+    color: black;
+}
+
+.Buttonreleases {
+    cursor: pointer;
+    text-decoration: none;
+    color: grey;
+    padding-left: 30px;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    -webkit-tap-highlight-color: white;
+}
+
+.buttoncontact:hover {
+    color: black;
+}
+
+.buttoncontact {
+    cursor: pointer;
+    text-decoration: none;
+    color: grey;
+    padding-left: 30px;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    -webkit-tap-highlight-color: white;
+}
+
+.Albumartwork {
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.Spotifyblockhere {
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+
+.Spotifyblockhere>iframe {
+    width: 250px;
+    height: 300px;
+}
+
+.schemarelatedthings {
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    color: grey;
+    line-height: 20px;
+}
+
+.Tidal {
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    position: relative;
+    top: 250px;
+}
+
+.SocialShareMedia {
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    position: relative;
+    top: 300px;
+}
+
+.tumblrer {
+    padding-right: 10px;
+}
+
+.whatsap {
+    padding-left: 10px;
+}
+
+.facebok00 {
+    padding-left: 10px;
+}
+
+.pintrest {
+    padding-left: 10px;
+}
+
+@media only screen and (max-width:300px) {
+    .Albumartwork>img {
+        width: 200px;
+    }
+    .Navbar {
+        font-size: 10px;
+    }
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(219, 219, 219);
+    position: relative;
+    top: 320px;
+}
+
+.ArtistPagemusicplateform {
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+    top: 300px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    color: grey;
+    display: block;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: auto;
+}
+
+.ArtistPagemusicplateform a:hover {
+    color: black;
+}
+
+.ArtistPagemusicplateform a {
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    color: grey;
+    letter-spacing: 5px;
+    -webkit-tap-highlight-color: transparent;
+    transition: 5s ease-in-out;
+    -webkit-transition: 5s ease-in-out;
+    -moz-transition: 5s ease-in-out;
+    -ms-transition: 5s ease-in-out;
+    -o-transition: 5s ease-in-out;
+    touch-action: auto;
+}
+
+.line1 {
+    width: 100%;
+    background-color: rgb(187, 187, 187);
+    height: 1px;
+    position: relative;
+}
+
+.AboutStoryHead {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    color: rgb(71, 71, 71);
+    letter-spacing: 2px;
+}
+
+.Storytracktitle {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    letter-spacing: 3px;
+    color: grey;
+}
+
+.Storytrackstroy {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    color: rgb(100, 100, 100);
+}
+
+.Credit {
+    width: 100%;
+    background-color: rgb(124, 124, 124);
+    position: relative;
+    top: 300px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    color: rgb(199, 199, 199);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 8px;
+    letter-spacing: 1px;
+}
+
+.Loader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    z-index: 99;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.Loader.hidden {
+    display: none;
+}
+
+.movlogo {
+    position: relative;
+    width: 100px;
+    justify-content: center;
+    align-content: center;
+    top: 300px;
+}
+
+@keyframes rotatingloader {
+    0% {
+        opacity: 0;
+        transform: rotateZ(1000deg);
+        -webkit-transform: rotateZ(1000deg);
+        -moz-transform: rotateZ(1000deg);
+        -ms-transform: rotateZ(1000deg);
+        -o-transform: rotateZ(1000deg);
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: rotateZ(2000deg);
+        -webkit-transform: rotateZ(2000deg);
+        -moz-transform: rotateZ(2000deg);
+        -ms-transform: rotateZ(2000deg);
+        -o-transform: rotateZ(2000deg);
+    }
+}
+
+.movlogo>img {
+    width: 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: 1px 1px 66px rgb(144, 75, 255);
+    animation: rotatingloader 1s infinite ease;
+    -webkit-animation: rotatingloader 1s infinite ease;
+}

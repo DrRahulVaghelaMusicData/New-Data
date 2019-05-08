@@ -1,0 +1,875 @@
+body {
+    scroll-behavior: smooth;
+    background-color: black;
+    touch-action: auto;
+}
+
+.Loader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    z-index: 99;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.Loader.hidden {
+    display: none;
+}
+
+.movlogo {
+    position: relative;
+    width: 100px;
+    justify-content: center;
+    align-content: center;
+    top: 300px;
+}
+
+@keyframes rotatingloader {
+    0% {
+        opacity: 0;
+        transform: rotateZ(1000deg);
+        -webkit-transform: rotateZ(1000deg);
+        -moz-transform: rotateZ(1000deg);
+        -ms-transform: rotateZ(1000deg);
+        -o-transform: rotateZ(1000deg);
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: rotateZ(2000deg);
+        -webkit-transform: rotateZ(2000deg);
+        -moz-transform: rotateZ(2000deg);
+        -ms-transform: rotateZ(2000deg);
+        -o-transform: rotateZ(2000deg);
+    }
+}
+
+.movlogo>img {
+    width: 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: 1px 1px 66px rgb(144, 75, 255);
+    animation: rotatingloader 1s infinite ease;
+    -webkit-animation: rotatingloader 1s infinite ease;
+}
+
+.headermusictit {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(85, 11, 146);
+    color: white;
+    animation: Color 10s infinite forwards ease-in-out;
+    -webkit-animation: Color 10s infinite forwards ease-in-out;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    bottom: 20px;
+}
+
+.wordstitlehere {
+    position: relative;
+    top: 130px;
+}
+
+@keyframes Color {
+    0% {
+        background-color: rgb(100, 100, 100);
+        color: white;
+    }
+    50% {
+        color: rgb(85, 11, 146);
+        background-color: white;
+    }
+    100% {
+        background-color: rgb(100, 100, 100);
+        color: white;
+    }
+}
+
+.animkeys {
+    width: 100%;
+    display: flex;
+}
+
+.one {
+    width: 5%;
+    height: 20px;
+    background-color: black;
+    animation: simplychill 3s infinite ease;
+    -webkit-animation: simplychill 3s infinite ease;
+    text-align: center;
+}
+
+@keyframes simplychill {
+    0% {
+        opacity: 0;
+        transform: rotateZ(-5000deg)scale(1);
+        -webkit-transform: rotateZ(-5000deg)scale(1);
+        -moz-transform: rotateZ(-5000deg)scale(1);
+        -ms-transform: rotateZ(-5000deg)scale(1);
+        -o-transform: rotateZ(-5000deg)scale(1);
+        background-color: white;
+        box-shadow: 1px 1px 30px rgb(255, 255, 255);
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(100px)rotateZ(-3000deg)scale(0.5);
+        -webkit-transform: translateY(100px)rotateZ(-3000deg)scale(0.5);
+        -moz-transform: translateY(100px)rotateZ(-3000deg)scale(0.5);
+        -ms-transform: translateY(100px)rotateZ(-3000deg)scale(0.5);
+        -o-transform: translateY(100px)rotateZ(-3000deg)scale(0.5);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(1px)scale(0.0004);
+        -webkit-transform: translateY(1px)scale(0.0004);
+        -moz-transform: translateY(1px)scale(0.0004);
+        -ms-transform: translateY(1px)scale(0.0004);
+        -o-transform: translateY(1px)scale(0.0004);
+    }
+}
+
+.two {
+    width: 5%;
+    height: 20px;
+    background-color: grey;
+    animation: simplychill 37s infinite ease;
+    -webkit-animation: simplychill 37s infinite ease;
+    text-align: center;
+}
+
+.three {
+    width: 5%;
+    height: 20px;
+    background-color: black;
+    animation: simplychill 34s infinite ease;
+    -webkit-animation: simplychill 34s infinite ease;
+    text-align: center;
+}
+
+.four {
+    width: 5%;
+    height: 20px;
+    background-color: silver;
+    animation: simplychill 13s infinite ease;
+    -webkit-animation: simplychill 13s infinite ease;
+    text-align: center;
+}
+
+.five {
+    width: 5%;
+    height: 20px;
+    background-color: black;
+    animation: simplychill 33s infinite ease;
+    -webkit-animation: simplychill 33s infinite ease;
+}
+
+.six {
+    width: 5%;
+    height: 20px;
+    background-color: grey;
+    animation: simplychill 14s infinite ease;
+    -webkit-animation: simplychill 14s infinite ease;
+}
+
+.seven {
+    width: 5%;
+    height: 20px;
+    background-color: black;
+    animation: simplychill 63s infinite ease;
+    -webkit-animation: simplychill 63s infinite ease;
+}
+
+.eight {
+    width: 5%;
+    height: 20px;
+    background-color: grey;
+    animation: simplychill 93s infinite ease;
+    -webkit-animation: simplychill 93s infinite ease;
+}
+
+.nine {
+    width: 5%;
+    height: 20px;
+    background-color: black;
+    animation: simplychill 103s infinite ease;
+    -webkit-animation: simplychill 103s infinite ease;
+}
+
+.ten {
+    width: 5%;
+    height: 20px;
+    background-color: grey;
+    animation: simplychill 18s infinite ease;
+    -webkit-animation: simplychill 18s infinite ease;
+}
+
+#Hamburger {
+    position: absolute;
+    cursor: pointer;
+    left: 10px;
+    top: 550px;
+    color: rgb(85, 11, 146);
+    transition: margin-left 2s ease-out;
+    -webkit-transition: margin-left 2s ease-out;
+    -moz-transition: margin-left 2s ease-out;
+    -ms-transition: margin-left 2s ease-out;
+    -o-transition: margin-left 2s ease-out;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.Closeit {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    position: relative;
+    left: 40px;
+    text-decoration: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.SitesliderNav a {
+    text-decoration: none;
+    padding: 20px 20px 13px 10px;
+    display: block;
+    color: white;
+    transition: 1s;
+    -webkit-transition: ;
+    -moz-transition: ;
+    -ms-transition: ;
+    -o-transition: ;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.SitesliderNav a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.SitesliderNav {
+    position: fixed;
+    padding-top: 120px;
+    height: 100%;
+    width: 0px;
+    text-decoration: none;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: purple;
+    transition: 0.2s ease-in-out;
+    overflow-x: hidden;
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -ms-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    animation: slidehere 10s ease-in-out;
+    -webkit-animation: slidehere 10s ease-in-out;
+    box-shadow: 1px 1px 10px rgb(167, 167, 167);
+    -webkit-tap-highlight-color: transparent;
+}
+
+@keyframes slidehere {
+    0% {
+        opacity: 1;
+        background-color: transparent;
+    }
+    100% {
+        opacity: 1;
+        background-color: purple;
+    }
+}
+
+.Mainheading {
+    width: 100%;
+    position: relative;
+    top: 200px;
+    text-align: center;
+    color: grey;
+    letter-spacing: 10px;
+}
+
+.SweetCelebrationlink {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 270px;
+    justify-content: center;
+}
+
+.Earnlink {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 350px;
+    justify-content: center;
+}
+
+.Freezlink {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 450px;
+    justify-content: center;
+}
+
+.Elegancelink {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 550px;
+    justify-content: center;
+}
+
+.Particlelink {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 650px;
+    justify-content: center;
+}
+
+.Tearslink {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 750px;
+    justify-content: center;
+}
+
+.AWALklink {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 850px;
+    justify-content: center;
+}
+
+.Simpleblendslink {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 950px;
+    justify-content: center;
+}
+
+.SiberianShadowlink {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 1050px;
+    justify-content: center;
+}
+
+.ShadesOflovelink {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 1150px;
+    justify-content: center;
+}
+
+.LoadedGiftslink {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 1250px;
+    justify-content: center;
+}
+
+.SmoothAndCOldlink {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 1350px;
+    justify-content: center;
+}
+
+.Wondersofwinterlink {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 1450px;
+    justify-content: center;
+}
+
+.Snowlightslink {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 1550px;
+    justify-content: center;
+}
+
+.Natureoflovelink {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 1650px;
+    justify-content: center;
+}
+
+.Nightinvenicelink {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 1750px;
+    justify-content: center;
+}
+
+.ZionAndBeautylink {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 1850px;
+    justify-content: center;
+}
+
+.PerspectiveThrilllink {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 1950px;
+    justify-content: center;
+}
+
+.AncientThrilllink {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 2050px;
+    justify-content: center;
+}
+
+.AncientThrilllink>img {
+    align-content: center;
+    box-shadow: 1px 1px 110px rgb(15, 252, 161);
+    animation: little 1s ease;
+    -webkit-animation: little 1s ease;
+}
+
+.PerspectiveThrilllink>img {
+    align-content: center;
+    box-shadow: 1px 1px 110px rgb(11, 105, 194);
+    animation: little 1s ease;
+    -webkit-animation: little 1s ease;
+}
+
+.ZionAndBeautylink>img {
+    align-content: center;
+    box-shadow: 1px 1px 110px rgb(78, 70, 0);
+    animation: little 1s ease;
+    -webkit-animation: little 1s ease;
+}
+
+.Nightinvenicelink>img {
+    align-content: center;
+    box-shadow: 1px 1px 110px rgb(9, 128, 68);
+    animation: little 1s ease;
+    -webkit-animation: little 1s ease;
+}
+
+.Natureoflovelink>img {
+    align-content: center;
+    box-shadow: 1px 1px 110px rgb(51, 255, 204);
+    animation: little 1s ease;
+    -webkit-animation: little 1s ease;
+}
+
+.Snowlightslink>img {
+    align-content: center;
+    box-shadow: 1px 1px 110px rgb(235, 17, 255);
+    animation: little 1s ease;
+    -webkit-animation: little 1s ease;
+}
+
+.Wondersofwinterlink>img {
+    align-content: center;
+    box-shadow: 1px 1px 110px rgb(90, 90, 90);
+    animation: little 1s ease;
+    -webkit-animation: little 1s ease;
+}
+
+.SmoothAndCOldlink>img {
+    align-content: center;
+    box-shadow: 1px 1px 110px rgb(175, 0, 0);
+    animation: little 1s ease;
+    -webkit-animation: little 1s ease;
+}
+
+.LoadedGiftslink>img {
+    align-content: center;
+    box-shadow: 1px 1px 110px rgb(163, 24, 243);
+    animation: little 1s ease;
+    -webkit-animation: little 1s ease;
+}
+
+.ShadesOflovelink>img {
+    align-content: center;
+    box-shadow: 1px 1px 110px rgb(243, 24, 24);
+    animation: little 1s ease;
+    -webkit-animation: little 1s ease;
+}
+
+.SiberianShadowlink>img {
+    align-content: center;
+    box-shadow: 1px 1px 110px rgb(238, 205, 21);
+    animation: little 1s ease;
+    -webkit-animation: little 1s ease;
+}
+
+.Simpleblendslink>img {
+    align-content: center;
+    box-shadow: 1px 1px 110px rgb(173, 173, 173);
+    animation: little 1s ease;
+    -webkit-animation: little 1s ease;
+}
+
+.AWALklink>img {
+    align-content: center;
+    box-shadow: 1px 1px 110px rgb(9, 128, 68);
+    animation: little 1s ease;
+    -webkit-animation: little 1s ease;
+}
+
+.Tearslink>img {
+    align-content: center;
+    box-shadow: 1px 1px 110px rgb(5, 97, 202);
+    animation: little 1s ease;
+    -webkit-animation: little 1s ease;
+}
+
+.Particlelink>img {
+    align-content: center;
+    box-shadow: 1px 1px 110px rgb(255, 255, 255);
+    animation: little 1s ease;
+    -webkit-animation: little 1s ease;
+}
+
+.Elegancelink>img {
+    align-content: center;
+    box-shadow: 1px 1px 110px rgb(11, 189, 100);
+    animation: little 1s ease;
+    -webkit-animation: little 1s ease;
+}
+
+.Freezlink>img {
+    align-content: center;
+    box-shadow: 1px 1px 110px rgb(233, 56, 2);
+    animation: little 1s ease;
+    -webkit-animation: little 1s ease;
+}
+
+.Earnlink>img {
+    align-content: center;
+    box-shadow: 1px 1px 110px rgb(170, 0, 156);
+    animation: little 1s ease;
+    -webkit-animation: little 1s ease;
+}
+
+.SweetCelebrationlink>img {
+    align-content: center;
+    box-shadow: 1px 1px 110px rgb(9, 233, 196);
+    animation: little 1s ease;
+    -webkit-animation: little 1s ease;
+}
+
+.sweetlink {
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.AncientThrilllink>img:hover {
+    animation: none;
+    -webkit-animation: none;
+}
+
+.PerspectiveThrilllink>img:hover {
+    animation: none;
+    -webkit-animation: none;
+}
+
+.ZionAndBeautylink>img:hover {
+    animation: none;
+    -webkit-animation: none;
+}
+
+.Nightinvenicelink>img:hover {
+    animation: none;
+    -webkit-animation: none;
+}
+
+.Natureoflovelink>img:hover {
+    animation: none;
+    -webkit-animation: none;
+}
+
+.Snowlightslink>img:hover {
+    animation: none;
+    -webkit-animation: none;
+}
+
+.Wondersofwinterlink>img:hover {
+    animation: none;
+    -webkit-animation: none;
+}
+
+.SmoothAndCOldlink>img:hover {
+    animation: none;
+    -webkit-animation: none;
+}
+
+.LoadedGiftslink>img:hover {
+    animation: none;
+    -webkit-animation: none;
+}
+
+.ShadesOflovelink>img:hover {
+    animation: none;
+    -webkit-animation: none;
+}
+
+.SiberianShadowlink>img:hover {
+    animation: none;
+    -webkit-animation: none;
+}
+
+.Simpleblendslink>img:hover {
+    animation: none;
+    -webkit-animation: none;
+}
+
+.AWALklink>img:hover {
+    animation: none;
+    -webkit-animation: none;
+}
+
+.Tearslink>img:hover {
+    animation: none;
+    -webkit-animation: none;
+}
+
+.Particlelink>img:hover {
+    animation: none;
+    -webkit-animation: none;
+}
+
+.Elegancelink>img:hover {
+    animation: none;
+    -webkit-animation: none;
+}
+
+.Freezlink>img:hover {
+    animation: none;
+    -webkit-animation: none;
+}
+
+.Earnlink>img:hover {
+    animation: none;
+    -webkit-animation: none;
+}
+
+.SweetCelebrationlink>img:hover {
+    animation: none;
+    -webkit-animation: none;
+}
+
+@keyframes little {
+    0% {
+        opacity: 1;
+        transform: scale(0.005)translateX(30px)rotateZ(100deg);
+        -webkit-transform: scale(0.005)translateX(30px)rotateZ(100deg);
+        -moz-transform: scale(0.005)translateX(30px)rotateZ(100deg);
+        -ms-transform: scale(0.005)translateX(30px)rotateZ(100deg);
+        -o-transform: scale(0.005)translateX(30px)rotateZ(100deg);
+    }
+    50% {
+        opacity: 0;
+        transform: translateY(-30px);
+        -webkit-transform: translateY(-30px);
+        -moz-transform: translateY(-30px);
+        -ms-transform: translateY(-30px);
+        -o-transform: translateY(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+}
+
+.titleAWALKinDream {
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+}
+
+.titlesweet {
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+}
+
+.titleEarn {
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+}
+
+.titleFreez {
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+}
+
+.titleElegance {
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+}
+
+.titlePartile {
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+}
+
+.titleTearsinSilence {
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+}
+
+.titleSimplicityblend {
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+}
+
+.titleSiberianShadow {
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+}
+
+.titleShadesOfLove {
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+}
+
+.titleLoadedGifts {
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+}
+
+.titleSmoothAndCold {
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+}
+
+.titleWondersofWinter {
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+}
+
+.titleSnowlights {
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+}
+
+.titleNatureoflve {
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+}
+
+.titleNightinvenice {
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+}
+
+.titleZionAndBeauty {
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+}
+
+.titlePerspectiveThrill {
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+}
+
+.titleAncient {
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+}
+
+.Credit {
+    width: 100%;
+    background-color: rgb(124, 124, 124);
+    position: relative;
+    top: 2100px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    color: rgb(199, 199, 199);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 8px;
+    letter-spacing: 1px;
+}
+
+@media only screen and (min-width:10px) and (max-width:700px) {
+    .movlogo {
+        position: relative;
+        width: 100px;
+        justify-content: center;
+        align-content: center;
+        top: 200px;
+    }
+}

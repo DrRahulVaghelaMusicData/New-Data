@@ -1,0 +1,331 @@
+body {
+    scroll-behavior: smooth;
+    touch-action: smooth;
+}
+
+.Loader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    z-index: 99;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.Loader.hidden {
+    display: none;
+}
+
+.movlogo {
+    position: relative;
+    width: 100px;
+    justify-content: center;
+    align-content: center;
+    top: 300px;
+}
+
+@keyframes rotatingloader {
+    0% {
+        opacity: 0;
+        transform: rotateZ(1000deg);
+        -webkit-transform: rotateZ(1000deg);
+        -moz-transform: rotateZ(1000deg);
+        -ms-transform: rotateZ(1000deg);
+        -o-transform: rotateZ(1000deg);
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: rotateZ(2000deg);
+        -webkit-transform: rotateZ(2000deg);
+        -moz-transform: rotateZ(2000deg);
+        -ms-transform: rotateZ(2000deg);
+        -o-transform: rotateZ(2000deg);
+    }
+}
+
+.movlogo>img {
+    width: 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: 1px 1px 66px rgb(144, 75, 255);
+    animation: rotatingloader 1s infinite ease;
+    -webkit-animation: rotatingloader 1s infinite ease;
+}
+
+.musicmainhead {
+    position: relative;
+    bottom: 30px;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    background-color: grey;
+}
+
+.Wordsfornew {
+    width: 100%;
+    position: relative;
+    font-size: 40px;
+    top: 130px;
+    letter-spacing: 10px;
+    color: white;
+}
+
+#Hamburger {
+    position: absolute;
+    cursor: pointer;
+    left: 10px;
+    top: 350px;
+    transition: margin-left 2s ease-out;
+    -webkit-transition: margin-left 2s ease-out;
+    -moz-transition: margin-left 2s ease-out;
+    -ms-transition: margin-left 2s ease-out;
+    -o-transition: margin-left 2s ease-out;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.Closeit {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    position: relative;
+    left: 40px;
+    text-decoration: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.SitesliderNav a {
+    text-decoration: none;
+    padding: 20px 20px 13px 10px;
+    display: block;
+    color: white;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.SitesliderNav a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.SitesliderNav {
+    position: fixed;
+    padding-top: 120px;
+    height: 100%;
+    width: 0px;
+    background-color: silver;
+    text-decoration: none;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    transition: 0.2s ease-in-out;
+    overflow-x: hidden;
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -ms-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    animation: slidehere 10s ease-in-out;
+    -webkit-animation: slidehere 10s ease-in-out;
+    box-shadow: 1px 1px 10px rgb(167, 167, 167);
+    -webkit-tap-highlight-color: transparent;
+}
+
+@keyframes slidehere {
+    0% {
+        opacity: 0.5;
+        background-color: goldenrod;
+    }
+    100% {
+        opacity: 1;
+        background-color: silver;
+    }
+}
+
+.NewreleasedImages {
+    display: flex;
+    width: 100%;
+    position: relative;
+    top: 150px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    background-color: transparent;
+}
+
+.Firstimage {
+    position: relative;
+    width: 20%;
+    background-color: transparent;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    animation: Slidertest 5s infinite ease-in;
+    -webkit-animation: Slidertest 5s infinite ease-in;
+}
+
+@keyframes Slidertest {
+    0% {
+        opacity: 0;
+        display: none;
+    }
+    50% {
+        opacity: 1;
+        display: flex;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.Firstimage>img {
+    width: 100%;
+}
+
+.Secondimage {
+    position: relative;
+    width: 20%;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    background-color: transparent;
+    animation: Slidertest 10s infinite ease;
+    -webkit-animation: Slidertest 10s infinite ease;
+}
+
+.Secondimage>img {
+    width: 100%;
+}
+
+.ThridImage {
+    position: relative;
+    width: 20%;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    background-color: transparent;
+    animation: Slidertest 20s infinite ease;
+    -webkit-animation: Slidertest 20s infinite ease;
+}
+
+.ThridImage>img {
+    width: 100%;
+}
+
+.FirstImageData {
+    width: 100%;
+    position: relative;
+    top: 200px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    font-size: 40px;
+}
+
+.TitleofFirstimage {
+    width: 100%;
+}
+
+.Boxofdetailsoffirst {
+    width: 100%;
+    background-color: transparent;
+    font-size: 15px;
+}
+
+.StroeieeswriteFirst {
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+    font-size: 14px;
+    color: grey;
+}
+
+.Credit {
+    width: 100%;
+    background-color: rgb(124, 124, 124);
+    position: relative;
+    top: 20px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    color: rgb(199, 199, 199);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 8px;
+    letter-spacing: 1px;
+}
+
+@media only screen and (min-width:10px) and (max-width:900px) {
+    .musicmainhead {
+        position: relative;
+        bottom: 10px;
+        width: 100%;
+        height: 100px;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        background-color: grey;
+    }
+    .Wordsfornew {
+        width: 100%;
+        position: relative;
+        font-size: 20px;
+        top: 40px;
+        letter-spacing: 1px;
+        color: white;
+    }
+    #Hamburger {
+        position: absolute;
+        cursor: pointer;
+        left: 10px;
+        top: 150px;
+        transition: margin-left 2s ease-out;
+        -webkit-transition: margin-left 2s ease-out;
+        -moz-transition: margin-left 2s ease-out;
+        -ms-transition: margin-left 2s ease-out;
+        -o-transition: margin-left 2s ease-out;
+        text-decoration: none;
+        outline: none;
+        border: none;
+        -webkit-tap-highlight-color: transparent;
+    }
+    .FirstImageData {
+        font-size: 15px;
+    }
+    .Boxofdetailsoffirst {
+        font-size: 11px;
+    }
+    .StroeieeswriteFirst {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width:10px) and (max-width:700px) {
+    .movlogo {
+        position: relative;
+        width: 100px;
+        justify-content: center;
+        align-content: center;
+        top: 200px;
+    }
+}
