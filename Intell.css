@@ -54,27 +54,27 @@ body {
 @keyframes move {
     0% {
         opacity: 0;
-        transform: scale(1);
         -webkit-transform: scale(1);
         -moz-transform: scale(1);
         -ms-transform: scale(1);
         -o-transform: scale(1);
+         transform: scale(1);
     }
     50% {
         opacity: 1;
-        transform: scale(0.5);
         -webkit-transform: scale(0.5);
         -moz-transform: scale(0.5);
         -ms-transform: scale(0.5);
         -o-transform: scale(0.5);
+         transform: scale(0.5);
     }
     100% {
         opacity: 0;
-        transform: scale(0.0004);
         -webkit-transform: scale(0.0004);
         -moz-transform: scale(0.0004);
         -ms-transform: scale(0.0004);
         -o-transform: scale(0.0004);
+         transform: scale(0.0004);
     }
 }
 
