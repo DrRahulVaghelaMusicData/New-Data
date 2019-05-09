@@ -95,7 +95,6 @@ body {
     -ms-transition: margin-left 2s ease-out;
     -o-transition: margin-left 2s ease-out;
     text-decoration: none;
-    outline: none;
     border: none;
     -webkit-tap-highlight-color: transparent;
 }
@@ -105,8 +104,6 @@ body {
     color: rgb(0, 0, 0);
     position: relative;
     left: 40px;
-    text-decoration: none;
-    outline: none;
     -webkit-tap-highlight-color: transparent;
 }
 
@@ -131,7 +128,7 @@ body {
     position: fixed;
     padding-top: 120px;
     height: 100%;
-    width: 0px;
+    width: 0;
     background-color: silver;
     text-decoration: none;
     z-index: 1;
@@ -305,7 +302,6 @@ body {
         -ms-transition: margin-left 2s ease-out;
         -o-transition: margin-left 2s ease-out;
         text-decoration: none;
-        outline: none;
         border: none;
         -webkit-tap-highlight-color: transparent;
     }
