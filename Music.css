@@ -34,22 +34,23 @@ body {
 @keyframes rotatingloader {
     0% {
         opacity: 0;
-        transform: rotateZ(1000deg);
         -webkit-transform: rotateZ(1000deg);
         -moz-transform: rotateZ(1000deg);
         -ms-transform: rotateZ(1000deg);
         -o-transform: rotateZ(1000deg);
+         transform: rotateZ(1000deg);
     }
     50% {
         opacity: 1;
     }
     100% {
         opacity: 0;
-        transform: rotateZ(2000deg);
         -webkit-transform: rotateZ(2000deg);
         -moz-transform: rotateZ(2000deg);
         -ms-transform: rotateZ(2000deg);
         -o-transform: rotateZ(2000deg);
+                transform: rotateZ(2000deg);
+
     }
 }
 
@@ -267,7 +268,7 @@ body {
     position: fixed;
     padding-top: 120px;
     height: 100%;
-    width: 0px;
+    width: 0;
     text-decoration: none;
     z-index: 1;
     left: 0;
