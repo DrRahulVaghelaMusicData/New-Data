@@ -9,10 +9,10 @@ body {
     height: 100%;
     background-color: rgb(0, 0, 0);
     z-index: 99;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -33,32 +33,32 @@ body {
 @keyframes rotatingloader {
     0% {
         opacity: 0;
-        transform: rotateZ(1000deg);
         -webkit-transform: rotateZ(1000deg);
         -moz-transform: rotateZ(1000deg);
         -ms-transform: rotateZ(1000deg);
         -o-transform: rotateZ(1000deg);
+         transform: rotateZ(1000deg);
     }
     50% {
         opacity: 1;
     }
     100% {
         opacity: 0;
-        transform: rotateZ(2000deg);
         -webkit-transform: rotateZ(2000deg);
         -moz-transform: rotateZ(2000deg);
         -ms-transform: rotateZ(2000deg);
         -o-transform: rotateZ(2000deg);
+         transform: rotateZ(2000deg);
     }
 }
 
 .movlogo>img {
     width: 100%;
-    border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+    border-radius: 50%;
     box-shadow: 1px 1px 66px rgb(144, 75, 255);
     animation: rotatingloader 1s infinite ease;
     -webkit-animation: rotatingloader 1s infinite ease;
@@ -168,9 +168,7 @@ body {
     position: relative;
     top: 50px;
 }
-.Navbar a:focus{
-    outline:0;
-}
+
 .Homebuttonnav {
     text-decoration: none;
     color: grey;
@@ -183,9 +181,7 @@ body {
     transition: 1s ease;
     -webkit-tap-highlight-color: white;
 }
-.Homebuttonnav a:focus{
-outline:0;
-}
+
 .Homebuttonnav:hover {
     color: black;
     cursor: pointer;
@@ -205,9 +201,8 @@ outline:0;
     -o-transition: ;
     -webkit-tap-highlight-color: white;
 }
-.Musicbutton a:focus{
-    outline:0;
-}
+
+
 .Newmusicbutton:hover {
     color: black;
 }
@@ -255,20 +250,16 @@ outline:0;
     -webkit-tap-highlight-color: transparent;
     padding-bottom: 10px;
 }
-#Hamburger a:focus{
-    outline:0;
-}
+
+
 .Closeit {
     text-decoration: none;
     color: rgb(0, 0, 0);
     position: relative;
     left: 40px;
-    text-decoration: none;
     -webkit-tap-highlight-color: transparent;
 }
-.Closeit a:focus{
-       outline:0;
-}
+
 .SitesliderNav a {
     text-decoration: none;
     padding: 20px 20px 13px 10px;
@@ -329,9 +320,7 @@ outline:0;
     position: absolute;
     left: 10px;
 }
-.Closeitd1coookie a:focus{
-    outline: 0;
-}
+
 .FeaturedUpcomingWork {
     display: flex;
     position: relative;
