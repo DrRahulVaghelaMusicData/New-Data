@@ -228,9 +228,11 @@ body {
     -ms-transition: margin-left 2s ease-out;
     -o-transition: margin-left 2s ease-out;
     text-decoration: none;
-    outline: none;
     border: none;
     -webkit-tap-highlight-color: transparent;
+}
+#Hamburger:focus{
+    outline:none;
 }
 
 .Closeit {
