@@ -169,9 +169,10 @@ body {
     justify-content: center;
     position: relative;
     top: 50px;
-    outline: none;
 }
-
+.Navbar a:focus{
+    outline:0;
+}
 .Homebuttonnav {
     text-decoration: none;
     color: grey;
