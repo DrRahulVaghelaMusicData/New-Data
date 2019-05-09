@@ -208,7 +208,6 @@ html {
 .ArtistPagemusicplateform a {
     text-decoration: none;
     cursor: pointer;
-    outline: none;
     color: grey;
     letter-spacing: 5px;
     -webkit-tap-highlight-color: transparent;
