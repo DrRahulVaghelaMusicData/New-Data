@@ -94,9 +94,10 @@ body {
 
 .Buttonsoftermsd a {
     text-decoration: none;
-    outline: none;
     border: none;
 }
+.Buttonsoftermsd a:focus{
+    outline:0;}
 
 .Buttncooki {
     text-align: center;
@@ -125,8 +126,8 @@ body {
     position: relative;
     bottom: 30px;
     color: white;
-    animation: littleslowflash 20s infinite ease;
     -webkit-animation: littleslowflash 20s infinite ease;
+    animation: littleslowflash 20s infinite ease;
     cursor: default;
     text-decoration: none;
 }
@@ -176,15 +177,16 @@ body {
     color: grey;
     cursor: pointer;
     padding-right: 40px;
-    transition: 1s ease;
     -webkit-transition: 1s ease;
     -moz-transition: 1s ease;
     -ms-transition: 1s ease;
     -o-transition: 1s ease;
-    outline: none;
+    transition: 1s ease;
     -webkit-tap-highlight-color: white;
 }
-
+.Homebuttonnav a:focus{
+outline:0;
+}
 .Homebuttonnav:hover {
     color: black;
     cursor: pointer;
@@ -202,10 +204,11 @@ body {
     -moz-transition: ;
     -ms-transition: ;
     -o-transition: ;
-    outline: none;
     -webkit-tap-highlight-color: white;
 }
-
+.Musicbutton a:focus{
+    outline:0;
+}
 .Newmusicbutton:hover {
     color: black;
 }
@@ -214,11 +217,11 @@ body {
     text-decoration: none;
     color: grey;
     padding-left: 40px;
-    transition: 1s ease;
-    -webkit-transition: ;
-    -moz-transition: ;
-    -ms-transition: ;
-    -o-transition: ;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -ms-transition: 1s ease;
+    -o-transition: 1s ease;
+     transition: 1s ease;
     -webkit-tap-highlight-color: white;
 }
 
@@ -230,11 +233,11 @@ body {
     text-decoration: none;
     color: grey;
     padding-left: 40px;
-    transition: 1s ease;
     -webkit-transition: 1s ease;
     -moz-transition: 1s ease;
     -ms-transition: 1s ease;
     -o-transition: 1s ease;
+    transition: 1s ease;
     -webkit-tap-highlight-color: white;
 }
 
@@ -243,38 +246,40 @@ body {
     cursor: pointer;
     left: 10px;
     top: 450px;
+    -webkit-transition: margin-left 2s ease-out;
+    -moz-transition: margin-left 2s ease-out;
+    -ms-transition: margin-left 2s ease-out;
+    -o-transition: margin-left 2s ease-out;
     transition: margin-left 2s ease-out;
-    -webkit-transition: ;
-    -moz-transition: ;
-    -ms-transition: ;
-    -o-transition: ;
     text-decoration: none;
-    outline: none;
     border: none;
     -webkit-tap-highlight-color: transparent;
     padding-bottom: 10px;
 }
-
+#Hamburger a:focus{
+    outline:0;
+}
 .Closeit {
     text-decoration: none;
     color: rgb(0, 0, 0);
     position: relative;
     left: 40px;
     text-decoration: none;
-    outline: none;
     -webkit-tap-highlight-color: transparent;
 }
-
+.Closeit a:focus{
+       outline:0;
+}
 .SitesliderNav a {
     text-decoration: none;
     padding: 20px 20px 13px 10px;
     display: block;
     color: white;
-    transition: 1s;
     -webkit-transition: 1s;
     -moz-transition: 1s;
     -ms-transition: 1s;
     -o-transition: 1s;
+     transition: 1s;
     -webkit-tap-highlight-color: transparent;
 }
 
@@ -286,23 +291,23 @@ body {
     position: fixed;
     padding-top: 120px;
     height: 100%;
-    width: 0px;
+    width: 0;
     background-color: silver;
     text-decoration: none;
     z-index: 1;
     left: 0;
     top: 0;
-    transition: 0.2s ease-in-out;
     overflow-x: hidden;
     -webkit-transition: 0.2s ease-in-out;
     -moz-transition: 0.2s ease-in-out;
     -ms-transition: 0.2s ease-in-out;
     -o-transition: 0.2s ease-in-out;
+     transition: 0.2s ease-in-out;
     justify-content: center;
     align-content: center;
     text-align: center;
-    animation: slidehere 10s ease-in-out;
     -webkit-animation: slidehere 10s ease-in-out;
+    animation: slidehere 10s ease-in-out;
     box-shadow: 1px 1px 10px rgb(167, 167, 167);
     -webkit-tap-highlight-color: transparent;
 }
@@ -320,13 +325,14 @@ body {
 
 .Closeitid1coookie {
     text-decoration: none;
-    outline: none;
     color: white;
     cursor: pointer;
     position: absolute;
     left: 10px;
 }
-
+.Closeitd1coookie a:focus{
+    outline: 0;
+}
 .FeaturedUpcomingWork {
     display: flex;
     position: relative;
@@ -342,29 +348,29 @@ body {
 @keyframes simpleanimation {
     0% {
         opacity: 0;
-        transform: scale(1);
         -webkit-transform: scale(1);
         -moz-transform: scale(1);
         -ms-transform: scale(1);
         -o-transform: scale(1);
+         transform: scale(1);
     }
     50% {
         opacity: 1;
     }
     100% {
         opacity: 0;
-        transform: scale(0.004);
         -webkit-transform: scale(0.004);
         -moz-transform: scale(0.004);
         -ms-transform: scale(0.004);
         -o-transform: scale(0.004);
+         transform: scale(0.004);
     }
 }
 
 .FirstRelease {
     width: 200px;
-    animation: simpleanimation infinite 5s ease;
     -webkit-animation: simpleanimation infinite 5s ease;
+    animation: simpleanimation infinite 5s ease;
 }
 
 .FirstRelease>img {
@@ -372,20 +378,20 @@ body {
 }
 
 .FirstRelease:hover {
-    animation: none;
     -webkit-animation: none;
+    animation: none;
 }
 
 .SecondRelease:hover {
-    animation: none;
     -webkit-animation: none;
+    animation: none;
 }
 
 .SecondRelease {
     opacity: 1;
     width: 200px;
-    animation: simpleanimation infinite 15s ease-in;
     -webkit-animation: simpleanimation infinite 15s ease-in;
+     animation: simpleanimation infinite 15s ease-in;
 }
 
 .SecondRelease>img {
@@ -393,14 +399,14 @@ body {
 }
 
 .ThridRelease:hover {
-    animation: none;
     -webkit-animation: none;
+     animation: none;
 }
 
 .ThridRelease {
     width: 200px;
-    animation: simpleanimation infinite 10s ease-in;
     -webkit-animation: simpleanimation infinite 10s ease-in;
+     animation: simpleanimation infinite 10s ease-in;
 }
 
 .ThridRelease>img {
@@ -408,14 +414,14 @@ body {
 }
 
 .FourthRelease:hover {
-    animation: none;
     -webkit-animation: none;
+    animation: none;
 }
 
 .FourthRelease {
     width: 200px;
-    animation: simpleanimation infinite 20s ease-in;
     -webkit-animation: simpleanimation infinite 20s ease-in;
+     animation: simpleanimation infinite 20s ease-in;
 }
 
 .FourthRelease>img {
@@ -423,14 +429,14 @@ body {
 }
 
 .FifthRelease:hover {
-    animation: none;
     -webkit-animation: none;
+     animation: none;
 }
 
 .FifthRelease {
     width: 200px;
-    animation: simpleanimation infinite 30s ease-in;
     -webkit-animation: simpleanimation infinite 30s ease-in;
+     animation: simpleanimation infinite 30s ease-in;
 }
 
 .FifthRelease>img {
@@ -655,11 +661,11 @@ body {
         padding-right: 10px;
         padding-left: 50px;
         position: relative;
-        transform: translateY(-10px);
         -webkit-transform: translateY(-10px);
         -moz-transform: translateY(-10px);
         -ms-transform: translateY(-10px);
         -o-transform: translateY(-10px);
+        transform: translateY(-10px);
     }
     .CookiePolicypagepop {
         height: 180px;
