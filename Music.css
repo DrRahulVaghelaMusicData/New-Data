@@ -231,9 +231,7 @@ body {
     border: none;
     -webkit-tap-highlight-color: transparent;
 }
-#Hamburger:focus{
-    outline:none;
-}
+
 
 .Closeit {
     text-decoration: none;
