@@ -228,10 +228,11 @@ body {
     -ms-transition: margin-left 2s ease-out;
     -o-transition: margin-left 2s ease-out;
     text-decoration: none;
-    outline: none;
     border: none;
     -webkit-tap-highlight-color: transparent;
 }
+#Hamburger a:focus{
+      outline: 0;
 
 .Closeit {
     text-decoration: none;
@@ -239,9 +240,11 @@ body {
     position: relative;
     left: 40px;
     text-decoration: none;
-    outline: none;
     -webkit-tap-highlight-color: transparent;
 }
+
+.Closeit a:focus{
+    outline:0;
 
 .SitesliderNav a {
     text-decoration: none;
