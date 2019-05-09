@@ -97,7 +97,7 @@ body {
     border: none;
 }
 .Buttonsoftermsd a:focus{
-    outline:0;}
+    outline:none;}
 
 .Buttncooki {
     text-align: center;
