@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+<html lang="en" itemscope itemtype="http://schema.org/ContactPage">
 
 <head>
     <title>Contact</title>
@@ -7,6 +7,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="Contact.css" rel="stylesheet">
+    <meta itemprop="keywords" content="Contact, email, call, get in touch, ask">
+    <meta itemprop="description" content="Contact Information about dr rahul vaghela music">
 </head>
 
 <body>
@@ -36,7 +38,7 @@
         if you just want to write feedback then fill up the form down below
     </div>
     <div class="Form">
-        <form class="contact-form" action="Thank You page.html" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+        <form itemprop="mainContentOfPage" class="contact-form" action="Thank You page.html" method="POST" data-netlify="true" data-netlify-recaptcha="true">
             <p class="titlemail">
                 <b>SEND EMAIL</b>
             </p>
@@ -48,17 +50,17 @@
         </form>
     </div>
     <div class="Navcloud">
-        <a href="index.html" class="homebutton">Home</a>
-        <a href="Music.html" class="Musicbutton">Music</a>
-        <a href="Contact.html" class="contactbutton">Contact</a>
-        <a href="NewReleases.html" class="Newbutton">New Release</a>
+        <a itemprop="breadcrumb" href="index.html" class="homebutton">Home</a>
+        <a itemprop="breadcrumb" href="Music.html" class="Musicbutton">Music</a>
+        <a itemprop="breadcrumb" href="Contact.html" class="contactbutton">Contact</a>
+        <a itemprop="breadcrumb" href="NewReleases.html" class="Newbutton">New Release</a>
     </div>
     <div class="Credit">
 
         <p>&real;</p>
 
-        <p itemprop="copyright">&COPY;Dr Rahul Vaghela Music &TRADE;</p>
-        <p itemprop="copyright">&copysr;Rahul Shailesh Vaghela</p>
+        <p itemprop="copyrightHolder">&COPY;Dr Rahul Vaghela Music &TRADE;</p>
+        <p itemprop="copyrightHolder">&copysr;Rahul Shailesh Vaghela</p>
 </body>
 
 </html>
