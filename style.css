@@ -571,9 +571,7 @@ body {
         font-size: 8px;
         text-align: center;
     border:none;
-
-
-
+    text-decoration:none;
 }
 .Credit {
     width: 100%;
