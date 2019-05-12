@@ -127,11 +127,8 @@ html {
     }
     .Buttonhome a{
     text-decoration:none;
-    border:0;
-    color:white;
-    text-align:center;
-    justify-content:center;
-    align-content:center;
-        z-index:50;}
+       position: relative;
+    top: 100px;
+        font-size: 70px;}
 
 }
