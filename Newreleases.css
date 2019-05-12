@@ -287,7 +287,7 @@ Color:#1fe26a;
     .Wordsfornew {
         width: 100%;
         position: relative;
-        font-size: 20px;
+        font-size: 30px;
         top: 40px;
         letter-spacing: 1px;
         color: white;
@@ -307,13 +307,13 @@ Color:#1fe26a;
         -webkit-tap-highlight-color: transparent;
     }
     .FirstImageData {
-        font-size: 15px;
+        font-size: 25px;
     }
     .Boxofdetailsoffirst {
-        font-size: 11px;
+        font-size: 15px;
     }
     .StroeieeswriteFirst {
-        font-size: 10px;
+        font-size: 14px;
     }
 }
 
