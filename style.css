@@ -590,7 +590,7 @@ Color:#7d42f4;
 
 @media only screen and (min-width:50px) and (max-width:800px) {
     .websitetitle {
-        font-size: 27x;
+        font-size: 27px;
         letter-spacing: 1px;
         height: 100px;
         position: relative;
@@ -603,24 +603,24 @@ Color:#7d42f4;
     }
     .Navbar {
         top: 20px;
-        font-size: 20px;
+        font-size: 10px;
     }
     #Hamburger {
         top: 150px;
     }
     .SitesliderNav {
         padding-top: 100px;
-        font-size: 20px;
+        font-size: 10px;
     }
     .FeaturedUpcomingWork {
         position: relative;
         height: 90px;
     }
     .Mainfirsttitle {
-        font-size: 23px;
+        font-size: 13px;
     }
     .ThemeTracks {
-        font-size: 20px;
+        font-size: 10px;
         letter-spacing: 1px;
         position: relative;
         bottom: 50px;
