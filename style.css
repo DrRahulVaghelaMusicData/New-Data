@@ -603,14 +603,14 @@ Color:#7d42f4;
     }
     .Navbar {
         top: 20px;
-        font-size: 10px;
+        font-size: 15px;
     }
     #Hamburger {
         top: 150px;
     }
     .SitesliderNav {
         padding-top: 100px;
-        font-size: 10px;
+        font-size: 15px;
     }
     .FeaturedUpcomingWork {
         position: relative;
@@ -620,7 +620,7 @@ Color:#7d42f4;
         font-size: 13px;
     }
     .ThemeTracks {
-        font-size: 10px;
+        font-size: 15px;
         letter-spacing: 1px;
         position: relative;
         bottom: 50px;
