@@ -221,7 +221,7 @@ body {
     cursor: pointer;
     left: 10px;
     top: 550px;
-    color: rgb(85, 11, 146);
+    color:#0e9e8f;
     transition: margin-left 2s ease-out;
     -webkit-transition: margin-left 2s ease-out;
     -moz-transition: margin-left 2s ease-out;
@@ -267,7 +267,7 @@ body {
     z-index: 1;
     left: 0;
     top: 0;
-    background-color: purple;
+    background-color:#0e9e8f;
     transition: 0.2s ease-in-out;
     overflow-x: hidden;
     -webkit-transition: 0.2s ease-in-out;
@@ -277,8 +277,8 @@ body {
     justify-content: center;
     align-content: center;
     text-align: center;
-    animation: slidehere 10s ease-in-out;
-    -webkit-animation: slidehere 10s ease-in-out;
+    animation: slidehere 10s ease;
+    -webkit-animation: slidehere 10s ease;
     box-shadow: 1px 1px 10px rgb(167, 167, 167);
     -webkit-tap-highlight-color: transparent;
 }
@@ -290,7 +290,7 @@ body {
     }
     100% {
         opacity: 1;
-        background-color: purple;
+        background-color:#0e9e8f;
     }
 }
 
