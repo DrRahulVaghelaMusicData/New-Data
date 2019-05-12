@@ -594,11 +594,11 @@ Color:#7d42f4;
         letter-spacing: 1px;
         height: 100px;
         position: relative;
-        top: 10px;
+        top: -20px;
     }
     .Lettersoftitle {
         position: relative;
-        top: 20px;
+        top: 30px;
         letter-spacing: 1px;
     }
     .Navbar {
@@ -606,7 +606,7 @@ Color:#7d42f4;
         font-size: 15px;
     }
     #Hamburger {
-        top: 150px;
+        top: 160px;
     }
     .SitesliderNav {
         padding-top: 100px;
