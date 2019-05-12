@@ -94,7 +94,9 @@ html {
     -ms-transition: all 1s ease;
     -o-transition: all 1s ease;
 }
-
+.Credit a{
+    text-decoraion:none;
+    color:goldenrod;}
 .Credit {
     width: 100%;
     background-color: rgb(124, 124, 124);
