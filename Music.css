@@ -221,7 +221,7 @@ body {
     cursor: pointer;
     left: 10px;
     top: 550px;
-    color:#0e9e8f;
+    color:#1fe26a;
     transition: margin-left 2s ease-out;
     -webkit-transition: margin-left 2s ease-out;
     -moz-transition: margin-left 2s ease-out;
@@ -267,7 +267,7 @@ body {
     z-index: 1;
     left: 0;
     top: 0;
-    background-color:#0e9e8f;
+    background-color:#1fe26a;
     transition: 0.2s ease-in-out;
     overflow-x: hidden;
     -webkit-transition: 0.2s ease-in-out;
@@ -290,7 +290,7 @@ body {
     }
     100% {
         opacity: 1;
-        background-color:#0e9e8f;
+        background-color:#1fe26a;
     }
 }
 
