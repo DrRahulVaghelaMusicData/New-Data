@@ -98,6 +98,8 @@ html {
     align-self: center;
 }
 .updateprogress a{
+    outline:0;
+    text-transformation:none;
     text-decoration:none;
     justify-content:center;
     text-align:center;
@@ -127,7 +129,7 @@ html {
     .Words {
         top: 50px;
     }
-    .Buttonhome{
+    .Buttonhome a{
     text-decoration:none;
     border:0;
     color:white;
@@ -135,5 +137,5 @@ html {
     justify-content:center;
     align-content:center;
         z-index:50;}
-}
+
 }
