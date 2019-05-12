@@ -89,6 +89,7 @@ body {
     cursor: pointer;
     left: 10px;
     top: 350px;
+Color:#1fe26a;
     transition: margin-left 2s ease-out;
     -webkit-transition: margin-left 2s ease-out;
     -moz-transition: margin-left 2s ease-out;
@@ -129,7 +130,7 @@ body {
     padding-top: 120px;
     height: 100%;
     width: 0;
-    background-color: silver;
+    background-color: #1fe26a;
     text-decoration: none;
     z-index: 1;
     left: 0;
