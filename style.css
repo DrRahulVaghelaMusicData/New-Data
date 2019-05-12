@@ -615,12 +615,13 @@ Color:#7d42f4;
     .FeaturedUpcomingWork {
         position: relative;
         height: 100px;
+        top:20px
     }
     .Mainfirsttitle {
         font-size: 13px;
     }
     .ThemeTracks {
-        font-size: 15px;
+        font-size: 17px;
         letter-spacing: 1px;
         position: relative;
         bottom: 50px;
