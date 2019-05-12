@@ -81,7 +81,7 @@ html {
 }
 
 .updateprogress {
-    display: flex;
+    display: block;
     width: 100%;
     height: 100%;
     position: fixed;
@@ -127,4 +127,13 @@ html {
     .Words {
         top: 50px;
     }
+    .Buttonhome{
+    text-decoration:none;
+    border:0;
+    color:white;
+    text-align:center;
+    justify-content:center;
+    align-content:center;
+        z-index:50;}
+}
 }
