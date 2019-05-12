@@ -237,6 +237,7 @@ body {
 
 #Hamburger {
     position: absolute;
+Color:#7d42f4;
     cursor: pointer;
     left: 10px;
     top: 450px;
@@ -282,7 +283,7 @@ body {
     padding-top: 120px;
     height: 100%;
     width: 0;
-    background-color: silver;
+    background-color: #7d42f4;
     text-decoration: none;
     z-index: 1;
     left: 0;
@@ -309,7 +310,7 @@ body {
     }
     100% {
         opacity: 1;
-        background-color: silver;
+        background-color: #7d42f4;
     }
 }
 
