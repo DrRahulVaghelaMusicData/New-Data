@@ -590,7 +590,7 @@ Color:#7d42f4;
 
 @media only screen and (min-width:50px) and (max-width:800px) {
     .websitetitle {
-        font-size: 17px;
+        font-size: 20px;
         letter-spacing: 1px;
         height: 100px;
         position: relative;
@@ -598,7 +598,7 @@ Color:#7d42f4;
     }
     .Lettersoftitle {
         position: relative;
-        top: 50px;
+        top: 20px;
         letter-spacing: 1px;
     }
     .Navbar {
