@@ -602,7 +602,7 @@ Color:#7d42f4;
         letter-spacing: 1px;
     }
     .Navbar {
-        top: 20px;
+        top: 50px;
         font-size: 15px;
     }
     #Hamburger {
@@ -614,7 +614,7 @@ Color:#7d42f4;
     }
     .FeaturedUpcomingWork {
         position: relative;
-        height: 90px;
+        height: 100px;
     }
     .Mainfirsttitle {
         font-size: 13px;
