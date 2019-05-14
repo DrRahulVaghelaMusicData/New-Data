@@ -16,8 +16,8 @@ html {
     align-items: center;
     bottom: 20px;
     color: white;
-    animation: head ease-in 20s infinite;
-    -webkit-animation: head ease-in 20s infinite;
+    animation: head ease-in 21s infinite;
+    -webkit-animation: head ease-in 21s infinite;
 }
 
 .MainHeadingofpage:hover {
