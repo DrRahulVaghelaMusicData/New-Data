@@ -94,7 +94,7 @@ html {
 
 .updateprogress {
     width: 100%;
-    height: 320px;
+    height: 280px;
     background-color: rgba(150, 150, 150, 0.486);
     position: absolute;
     top: 535px;
@@ -115,7 +115,7 @@ html {
     }
     .updateprogress {
         width: 100%;
-        height: 320px;
+        height: 280px;
         background-color: rgba(150, 150, 150, 0.486);
         position: absolute;
         top: 450px;
