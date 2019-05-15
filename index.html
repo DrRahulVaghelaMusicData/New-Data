@@ -52,24 +52,24 @@
     </div>
     <div class="Navbar">
         <embed name="Ambient Chill" src="MyAmbientThing (www.drrahulvaghelamusic.com).wav" loop="true" volume="0.1" hidden="true" autostart="true">
-        <a href="index.html" class="Homebuttonnav">Home</a>
-        <a href="Music.html" class="Musicbutton">Music</a>
-        <a href="NewReleases.html" class="Newmusicbutton">New Releases</a>
-        <a href="Contact.html" class="Contactbutton">Contact</a>
+        <a href="index.html" class="Homebuttonnav" onclick="playsound()">Home</a>
+        <a href="Music.html" class="Musicbutton" onclick="playsound()">Music</a>
+        <a href="NewReleases.html" class="Newmusicbutton" onclick="playsound()">New Releases</a>
+        <a href="Contact.html" class="Contactbutton" onclick="playsound()">Contact</a>
     </div>
     <div id="Hamburger">
         <span class="navbutton" onclick="openNav()">&#9776;</span>
     </div>
     <div id="SitesliderNav" class="SitesliderNav">
         <a itemprop="url"href="javascript:void(0)" class="Closeit" onclick="closeNav()">&times;</a>
-        <a itemprop="url"href="index.html">Home</a>
-        <a itemprop="url"href="Music.html">Music</a>
-        <a itemprop="url" href="Contact.html">Contact</a>
-        <a itemprop="url" href="NewReleases.html">New Releases</a>
-        <a itemprop="url" href="About.html">About</a>
-        <a itemprop="url" href="PrivacyPolicy.html">Privacy Policy</a>
-        <a itemprop="url" href="Terms&Condition.html">T & C</a>
-        <a itemprop="url" href="Download.html">Free Samples</a>
+        <a itemprop="url"href="index.html" onclick="playsound()">Home</a>
+        <a itemprop="url"href="Music.html" onclick="playsound()">Music</a>
+        <a itemprop="url" href="Contact.html" onclick="playsound()">Contact</a>
+        <a itemprop="url" href="NewReleases.html" onclick="playsound()">New Releases</a>
+        <a itemprop="url" href="About.html" onclick="playsound()">About</a>
+        <a itemprop="url" href="PrivacyPolicy.html" onclick="playsound()">Privacy Policy</a>
+        <a itemprop="url" href="Terms&Condition.html" onclick="playsound()">T & C</a>
+        <a itemprop="url" href="Download.html" onclick="playsound()">Free Samples</a>
 
     </div>
     <h1 itemprop="Text" class="Mainfirsttitle">Upcoming Release</h1>
@@ -190,6 +190,13 @@
         });
     </script>
     <script type="Text/javascript" src="Simplejs.js"></script>
+    <script>
+        <audio id="audio" src="Playonclickone.wav" autoplay="false"></audio>
+        function playsound(){
+        var sound = document.getElementByID("audio");
+            sound.play();
+        }
+    </script>
 </body>
 
 </html>
