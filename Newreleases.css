@@ -180,7 +180,7 @@ Color:#1fe26a;
     justify-content: center;
     text-align: center;
     transition: 1s  ease;
-    animation: Slidertest 5s infinite ease-in;
+    animation: Slidertest 20s infinite ease-in;
     -webkit-animation: Slidertest 5s infinite ease-in;
 }
 
@@ -213,7 +213,7 @@ Color:#1fe26a;
     align-content: center;
     background-color: transparent;
     transition: 1s  ease;
-    animation: Slidertest 10s infinite ease;
+    animation: Slidertest 40s infinite ease;
     -webkit-animation: Slidertest 10s infinite ease;
 }
 
@@ -229,7 +229,7 @@ Color:#1fe26a;
     align-content: center;
     transition: 1s  ease;
     background-color: transparent;
-    animation: Slidertest 20s infinite ease;
+    animation: Slidertest 60s infinite ease;
     -webkit-animation: Slidertest 20s infinite ease;
 }
 
