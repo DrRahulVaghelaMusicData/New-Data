@@ -203,6 +203,7 @@ Color:#1fe26a;
 
 .Firstimage>img {
     width: 100%;
+Box-shadow:1px 1px 10px black;
 }
 
 .Secondimage {
@@ -219,7 +220,7 @@ Color:#1fe26a;
 
 .Secondimage>img {
     width: 100%;
-}
+Box-shadow:1px 1px 10px black;}
 
 .ThridImage {
     position: relative;
@@ -235,7 +236,7 @@ Color:#1fe26a;
 
 .ThridImage>img {
     width: 100%;
-}
+Box-shadow:1px 1px 10px black;}
 
 .FirstImageData {
     width: 100%;
