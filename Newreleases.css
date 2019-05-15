@@ -180,10 +180,11 @@ Color:#1fe26a;
     justify-content: center;
     text-align: center;
     transition: 1s  ease;
+    transform:scale(1);
     animation: Slidertest 5s infinite ease-in;
     -webkit-animation: Slidertest 5s infinite ease-in;
 }
-.Firstimage:hover{
+.Firstimage>img:hover{
 transform:scale(2);
 }
 @keyframes Slidertest {
