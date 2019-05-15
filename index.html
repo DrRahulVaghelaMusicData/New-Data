@@ -175,6 +175,10 @@
          <audio id="audio" src="Playonclickone.wav" autoplay="false"></audio>
 
     <script>
+        function playsound(){
+        var sound = document.getElementByID("audio");
+            sound.play();
+        }
         function openNav() {
             document.getElementById("Hamburger").style.marginLeft = " 210px ";
             document.getElementById("SitesliderNav").style.width = " 210px ";
@@ -190,10 +194,7 @@
             const Loader = document.querySelector(".Loader");
             Loader.className += " hidden";
         });
-        function playsound(){
-        var sound = document.getElementByID("audio");
-            sound.play();
-        }
+     
     </script>
     <script type="Text/javascript" src="Simplejs.js"></script>
   
