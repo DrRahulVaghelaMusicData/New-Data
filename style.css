@@ -682,6 +682,10 @@ Color:#7d42f4;
     text-align: center;
     top: 200px;
 }
+.Qrcode>img{
+width:100px;
+   height:100px;
+}
 
 @media only screen and (min-width:10px) and (max-width:700px) {
     .movlogo {
