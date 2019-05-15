@@ -364,6 +364,7 @@ Color:#7d42f4;
 
 .FirstRelease>img {
     width: 100%;
+Box-shadow:1px 1px 10px black;
 }
 
 .FirstRelease:hover {
@@ -385,6 +386,7 @@ Color:#7d42f4;
 
 .SecondRelease>img {
     width: 100%;
+Box-shadow:1px 1px 10px black;
 }
 
 .ThridRelease:hover {
@@ -400,6 +402,8 @@ Color:#7d42f4;
 
 .ThridRelease>img {
     width: 100%;
+Box-shadow:1px 1px 10px black;
+
 }
 
 .FourthRelease:hover {
@@ -415,6 +419,8 @@ Color:#7d42f4;
 
 .FourthRelease>img {
     width: 100%;
+Box-shadow:1px 1px 10px black;
+
 }
 
 .FifthRelease:hover {
@@ -430,6 +436,8 @@ Color:#7d42f4;
 
 .FifthRelease>img {
     width: 100%;
+Box-shadow:1px 1px 10px black;
+
 }
 
 .linkofthisnew {
