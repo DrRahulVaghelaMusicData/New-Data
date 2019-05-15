@@ -179,10 +179,13 @@ Color:#1fe26a;
     align-content: center;
     justify-content: center;
     text-align: center;
+    transition: 1s  ease;
     animation: Slidertest 5s infinite ease-in;
     -webkit-animation: Slidertest 5s infinite ease-in;
 }
-
+.Firstimage:hover{
+transform:scale(2);
+}
 @keyframes Slidertest {
     0% {
         opacity: 0;
@@ -208,6 +211,7 @@ Color:#1fe26a;
     text-align: center;
     align-content: center;
     background-color: transparent;
+    transition: 1s  ease;
     animation: Slidertest 10s infinite ease;
     -webkit-animation: Slidertest 10s infinite ease;
 }
@@ -222,6 +226,7 @@ Color:#1fe26a;
     justify-content: center;
     text-align: center;
     align-content: center;
+    transition: 1s  ease;
     background-color: transparent;
     animation: Slidertest 20s infinite ease;
     -webkit-animation: Slidertest 20s infinite ease;
