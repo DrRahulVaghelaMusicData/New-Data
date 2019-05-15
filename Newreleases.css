@@ -181,7 +181,7 @@ Color:#1fe26a;
     text-align: center;
     transition: 1s  ease;
     animation: Slidertest 20s infinite ease-in;
-    -webkit-animation: Slidertest 5s infinite ease-in;
+    -webkit-animation: Slidertest 20s infinite ease-in;
 }
 
 @keyframes Slidertest {
@@ -214,7 +214,7 @@ Color:#1fe26a;
     background-color: transparent;
     transition: 1s  ease;
     animation: Slidertest 40s infinite ease;
-    -webkit-animation: Slidertest 10s infinite ease;
+    -webkit-animation: Slidertest 40s infinite ease;
 }
 
 .Secondimage>img {
@@ -230,7 +230,7 @@ Color:#1fe26a;
     transition: 1s  ease;
     background-color: transparent;
     animation: Slidertest 60s infinite ease;
-    -webkit-animation: Slidertest 20s infinite ease;
+    -webkit-animation: Slidertest 60s infinite ease;
 }
 
 .ThridImage>img {
