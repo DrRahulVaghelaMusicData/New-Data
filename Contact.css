@@ -32,6 +32,12 @@ html {
     color: grey;
 }
 
+emailnameslistt1 a{
+text-decoration:none;
+text-transform:none;
+}
+
+
 .Form {
     width: 100%;
     position: relative;
