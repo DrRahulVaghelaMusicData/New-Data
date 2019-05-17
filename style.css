@@ -364,7 +364,7 @@ Color:#7d42f4;
 
 .FirstRelease>img {
     width: 100%;
-Box-shadow:1px 1px 10px black;
+Box-shadow:1px 1px 10px grey;
 }
 
 .FirstRelease:hover {
@@ -386,7 +386,7 @@ Box-shadow:1px 1px 10px black;
 
 .SecondRelease>img {
     width: 100%;
-Box-shadow:1px 1px 10px black;
+Box-shadow:1px 1px 10px grey;
 }
 
 .ThridRelease:hover {
@@ -402,7 +402,7 @@ Box-shadow:1px 1px 10px black;
 
 .ThridRelease>img {
     width: 100%;
-Box-shadow:1px 1px 10px black;
+Box-shadow:1px 1px 10px grey;
 
 }
 
@@ -419,7 +419,7 @@ Box-shadow:1px 1px 10px black;
 
 .FourthRelease>img {
     width: 100%;
-Box-shadow:1px 1px 10px black;
+Box-shadow:1px 1px 10px grey;
 
 }
 
@@ -436,7 +436,7 @@ Box-shadow:1px 1px 10px black;
 
 .FifthRelease>img {
     width: 100%;
-Box-shadow:1px 1px 10px black;
+Box-shadow:1px 1px 10px grey;
 
 }
 
