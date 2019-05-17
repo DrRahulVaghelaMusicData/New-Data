@@ -1,0 +1,61 @@
+body {
+    scroll-behavior: smooth;
+}
+
+.HeaderTitle {
+    width: 100%;
+    background-color: silver;
+    height: 200px;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+.WordsofHead {
+    position: relative;
+    top: 80px;
+    letter-spacing: 5px;
+    color: white;
+}
+
+.SourceHead {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
+
+.SourceWords {
+    color: grey;
+    letter-spacing: 4px;
+}
+
+.Citation {
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 20px;
+    text-transform: none;
+    color: rgb(117, 117, 117);
+}
+
+.Quote {
+    width: 100%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgb(230, 230, 230);
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: grey;
+    font-size: 19px;
+}
