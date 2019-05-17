@@ -9,6 +9,9 @@ http://www.sitemaps.org/schemas/sitemap/0.9
 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <sitemap>
+<meta name="description" content="Sitemap of the website">
+<meta name="keywords" content="Sitemap">
+<meta name="theme-color" content="black">
 <url>
     <loc>http://drrahulvaghelamusic.com/index.html</loc>
     <lastmod>
