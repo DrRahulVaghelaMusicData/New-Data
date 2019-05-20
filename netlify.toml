@@ -3,5 +3,5 @@
   [headers.values]
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
-    Content-Security-Policy = "default-src 'self'; img-src *;report-uri https://music.report-uri.com/r/d/csp/reportOnly;"
+    Content-Security-Policy = "default-src 'self';report-uri https://music.report-uri.com/r/d/csp/reportOnly;"
   
