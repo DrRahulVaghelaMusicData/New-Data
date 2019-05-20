@@ -4,5 +4,5 @@
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
 
-  Content-Security-Policy = "frame-ancestors 'none'; report-uri 'music.report-uri.com/r/d/csp/reportOnly';"
+  Content-Security-Policy = "frame-ancestors 'none';object-src 'self';report-uri 'https://music.report-uri.com/r/d/csp/reportOnly';"
   Referrer-Policy = "no-referrer"
