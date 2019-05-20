@@ -1,7 +1,6 @@
 [[headers]]
   for = "/*"
   [headers.values]
-  Content-Secuirty-Policy: frame-ancestors 'none'
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
 
@@ -11,3 +10,6 @@
 	no-cache,
 	no-store,
 	must-revalidate'''
+	
+	# CSP 
+	Content-Security-Policy: default-src 'none'; object-src 'none'; img-src 'self'; script-src 'self'; style-src'self'; font-src 'self'; report-uri https://music.report-uri.com/r/d/csp/enforce
