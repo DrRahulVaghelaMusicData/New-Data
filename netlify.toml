@@ -4,5 +4,5 @@
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
 
-  Content-Security-Policy = "frame-ancestors 'none';object-src 'none';report-uri 'https://music.report-uri.com/r/d/csp/reportOnly';script-src 'self';"
+  Content-Security-Policy = "frame-ancestors 'none';object-src 'none';report-uri 'https://music.report-uri.com/r/d/csp/reportOnly';script-src 'https://cdn.cloudflare.com https://drrahulvaghelamusic.com https://ajax.cloudflare.com';"
   Referrer-Policy = "no-referrer"
