@@ -3,7 +3,7 @@
   [headers.values]
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
-    Content-Security-Policy = "default-src 'self'; img-src *; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'self'; child-src 'self'; frame-ancestors 'none'; report-uri https://music.report-uri.com/r/d/csp/reportOnly;"
+    Content-Security-Policy = "default-src 'self'; img-src *;frame-ancestors 'none'; report-uri https://music.report-uri.com/r/d/csp/reportOnly;"
     # COMMENT: Multi-key header rules are expressed with multi-line strings
 	cache-control = '''
 	max-age=0,
