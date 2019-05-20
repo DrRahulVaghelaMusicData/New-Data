@@ -4,4 +4,4 @@
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
 
-  Content-Security-Policy = "default-src 'self' https://cdn.cloudflare.net https://ajax.cloudflare.com ; script-src 'self' https://cdn.cloudflare.net https://ajax.cloudflare.com frame-ancestors 'none'; report-uri 'music.report-uri.com/r/d/csp/reportOnly';"
+  Content-Security-Policy = "default-src 'self' https://cdn.cloudflare.net https://ajax.cloudflare.com ; script-src 'self' https://cdn.cloudflare.net https://ajax.cloudflare.com; frame-ancestors 'none'; report-uri 'music.report-uri.com/r/d/csp/reportOnly';"
