@@ -3,7 +3,7 @@
   [headers.values]
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
-Content-Security-Policy= "default-src 'self';script-src 'self';object-src 'self';style-src 'self';media-src 'self';frame-src 'self';connect-src 'self'"
+Content-Security-Policy= "default-src 'self';script-src 'self';object-src 'none';style-src 'self';media-src 'self';frame-src 'self';connect-src 'self'"
 Content-Security-Policy-Report-Only = "default-src 'self';script-src 'self';object-src 'self';style-src 'self';media-src 'self';frame-src 'self';connect-src 'self'"
 X-Content-Security-Policy-Report-Only = "default-src 'self'; script-src 'self'; object-src 'self'; style-src 'self'; media-src 'self'; frame-src 'self'; connect-src 'self'"
 X-WebKit-CSP-Report-Only = "default-src 'self'; script-src 'self'; object-src 'self'; style-src 'self'; media-src 'self'; frame-src 'self'; connect-src 'self'"  
