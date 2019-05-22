@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+       xmlns:content="http://www.google.com/schemas/sitemap-content/1.0">
+ <url>
+   <loc>http://www.drrahulvaghelamusic.com/index.html</loc>
+   <PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+     <DataObject type="thumbnail">
+      <Attribute name="src" value="http://www.drrahulvaghelamusic.com/Brand Logo.jpeg"/>
+      <Attribute name="width" value="200"/>
+      <Attribute name="height" value="200"/>
+    </DataObject>
+   </PageMap>
+ </url>
+ <url>
+   <loc>http://www.drrahulvaghelamusic.com/Music</loc>
+   <PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+     <DataObject type="thumbnail">
+      <Attribute name="src" value="https://drrahulvaghelamusic.com/intellectual%20humans.jpg"/>
+      <Attribute name="width" value="200"/>
+      <Attribute name="height" value="200"/>
+    </DataObject>
+   </PageMap>
+ </url>
+
+<url>
+   <loc>http://www.drrahulvaghelamusic.com/newreleases</loc>
+   <PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+     <DataObject type="thumbnail">
+      <Attribute name="src" value="https://drrahulvaghelamusic.com/intellectual%20humans.jpg"/>
+      <Attribute name="width" value="200"/>
+      <Attribute name="height" value="200"/>
+    </DataObject>
+   </PageMap>
+ </url>
+<url>
+   <loc>http://www.drrahulvaghelamusic.com/Contact</loc>
+   <PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+     <DataObject type="thumbnail">
+      <Attribute name="src" value="https://drrahulvaghelamusic.com/Brand Logo.jpeg"/>
+      <Attribute name="width" value="200"/>
+      <Attribute name="height" value="200"/>
+    </DataObject>
+   </PageMap>
+ </url>
+<url>
+   <loc>http://www.drrahulvaghelamusic.com/PrivacyPolicy</loc>
+   <PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+     <DataObject type="thumbnail">
+      <Attribute name="src" value="https://drrahulvaghelamusic.com/Brand Logo.jpeg"/>
+      <Attribute name="width" value="200"/>
+      <Attribute name="height" value="200"/>
+    </DataObject>
+   </PageMap>
+ </url>
+<url>
+   <loc>http://www.drrahulvaghelamusic.com/terms&condition</loc>
+   <PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+     <DataObject type="thumbnail">
+      <Attribute name="src" value="https://drrahulvaghelamusic.com/Brand Logo.jpeg"/>
+      <Attribute name="width" value="200"/>
+      <Attribute name="height" value="200"/>
+    </DataObject>
+   </PageMap>
+ </url>
+<url>
+   <loc>http://www.drrahulvaghelamusic.com/cookies</loc>
+   <PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+     <DataObject type="thumbnail">
+      <Attribute name="src" value="https://drrahulvaghelamusic.com/Brand Logo.jpeg"/>
+      <Attribute name="width" value="200"/>
+      <Attribute name="height" value="200"/>
+    </DataObject>
+   </PageMap>
+ </url>
+<url>
+   <loc>http://www.drrahulvaghelamusic.com/ancient relaxing</loc>
+   <PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+     <DataObject type="thumbnail">
+      <Attribute name="src" value="https://drrahulvaghelamusic.com/Ancient Relaxing Music.png"/>
+      <Attribute name="width" value="200"/>
+      <Attribute name="height" value="200"/>
+    </DataObject>
+   </PageMap>
+ </url>
+<url>
+   <loc>http://www.drrahulvaghelamusic.com/perspective thrill</loc>
+   <PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+     <DataObject type="thumbnail">
+      <Attribute name="src" value="https://drrahulvaghelamusic.com/Perspective Thrill.jpg"/>
+      <Attribute name="width" value="200"/>
+      <Attribute name="height" value="200"/>
+    </DataObject>
+   </PageMap>
+ </url>
+<url>
+   <loc>http://www.drrahulvaghelamusic.com/Zion and beauty</loc>
+   <PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+     <DataObject type="thumbnail">
+      <Attribute name="src" value="https://drrahulvaghelamusic.com/Zion And Beauty.png"/>
+      <Attribute name="width" value="200"/>
+      <Attribute name="height" value="200"/>
+    </DataObject>
+   </PageMap>
+ </url>
+
+<url>
+   <loc>http://www.drrahulvaghelamusic.com/night in venice</loc>
+   <PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+     <DataObject type="thumbnail">
+      <Attribute name="src" value="https://drrahulvaghelamusic.com/Night In Venice.png"/>
+      <Attribute name="width" value="200"/>
+      <Attribute name="height" value="200"/>
+    </DataObject>
+   </PageMap>
+ </url>
+<url>
+   <loc>http://www.drrahulvaghelamusic.com/natureoflove</loc>
+   <PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+     <DataObject type="thumbnail">
+      <Attribute name="src" value="https://drrahulvaghelamusic.com/Nature of love.png"/>
+      <Attribute name="width" value="200"/>
+      <Attribute name="height" value="200"/>
+    </DataObject>
+   </PageMap>
+ </url>
+<url>
+   <loc>http://www.drrahulvaghelamusic.com/snowlights</loc>
+   <PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+     <DataObject type="thumbnail">
+      <Attribute name="src" value="https://drrahulvaghelamusic.com/Snow LightsS.jpg"/>
+      <Attribute name="width" value="200"/>
+      <Attribute name="height" value="200"/>
+    </DataObject>
+   </PageMap>
+ </url>
+<url>
+   <loc>http://www.drrahulvaghelamusic.com/woondersofwinter</loc>
+   <PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+     <DataObject type="thumbnail">
+      <Attribute name="src" value="https://drrahulvaghelamusic.com/Wonders Of Winter.png"/>
+      <Attribute name="width" value="200"/>
+      <Attribute name="height" value="200"/>
+    </DataObject>
+   </PageMap>
+ </url>
+<url>
+   <loc>http://www.drrahulvaghelamusic.com/smoothandcold</loc>
+   <PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+     <DataObject type="thumbnail">
+      <Attribute name="src" value="https://drrahulvaghelamusic.com/Smooth and cold.jpg"/>
+      <Attribute name="width" value="200"/>
+      <Attribute name="height" value="200"/>
+    </DataObject>
+   </PageMap>
+ </url>
+<url>
+   <loc>http://www.drrahulvaghelamusic.com/loadedgifts</loc>
+   <PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+     <DataObject type="thumbnail">
+      <Attribute name="src" value="https://drrahulvaghelamusic.com/LoadedGifts.png"/>
+      <Attribute name="width" value="200"/>
+      <Attribute name="height" value="200"/>
+    </DataObject>
+   </PageMap>
+ </url>
+<url>
+   <loc>http://www.drrahulvaghelamusic.com/shadesoflove</loc>
+   <PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+     <DataObject type="thumbnail">
+      <Attribute name="src" value="https://drrahulvaghelamusic.com/Shades of love.png"/>
+      <Attribute name="width" value="200"/>
+      <Attribute name="height" value="200"/>
+    </DataObject>
+   </PageMap>
+ </url>
+
+<url>
+   <loc>http://www.drrahulvaghelamusic.com/siberianshadow</loc>
+   <PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+     <DataObject type="thumbnail">
+      <Attribute name="src" value="https://drrahulvaghelamusic.com/Siberian shadow.jpg"/>
+      <Attribute name="width" value="200"/>
+      <Attribute name="height" value="200"/>
+    </DataObject>
+   </PageMap>
+ </url>
+<url>
+   <loc>http://www.drrahulvaghelamusic.com/simplicityblend</loc>
+   <PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+     <DataObject type="thumbnail">
+      <Attribute name="src" value="https://drrahulvaghelamusic.com/Simplicity blends.jpg"/>
+      <Attribute name="width" value="200"/>
+      <Attribute name="height" value="200"/>
+    </DataObject>
+   </PageMap>
+ </url>
+
+<url>
+   <loc>http://www.drrahulvaghelamusic.com/awalkinadream</loc>
+   <PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+     <DataObject type="thumbnail">
+      <Attribute name="src" value="https://drrahulvaghelamusic.com/Walk in Dream.jpg"/>
+      <Attribute name="width" value="200"/>
+      <Attribute name="height" value="200"/>
+    </DataObject>
+   </PageMap>
+ </url>
+
+<url>
+   <loc>http://www.drrahulvaghelamusic.com/tearsinsilence</loc>
+   <PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+     <DataObject type="thumbnail">
+      <Attribute name="src" value="https://drrahulvaghelamusic.com/Tears In Silence.jpg"/>
+      <Attribute name="width" value="200"/>
+      <Attribute name="height" value="200"/>
+    </DataObject>
+   </PageMap>
+ </url>
+<url>
+   <loc>http://www.drrahulvaghelamusic.com/particle</loc>
+   <PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+     <DataObject type="thumbnail">
+      <Attribute name="src" value="https://drrahulvaghelamusic.com/particles.jpg"/>
+      <Attribute name="width" value="200"/>
+      <Attribute name="height" value="200"/>
+    </DataObject>
+   </PageMap>
+ </url>
+
+<url>
+   <loc>http://www.drrahulvaghelamusic.com/elegance</loc>
+   <PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+     <DataObject type="thumbnail">
+      <Attribute name="src" value="https://drrahulvaghelamusic.com/eleganceS.jpg"/>
+      <Attribute name="width" value="200"/>
+      <Attribute name="height" value="200"/>
+    </DataObject>
+   </PageMap>
+ </url>
+<url>
+   <loc>http://www.drrahulvaghelamusic.com/freezingfireside</loc>
+   <PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+     <DataObject type="thumbnail">
+      <Attribute name="src" value="https://drrahulvaghelamusic.com/Freezing Fireside.jpg"/>
+      <Attribute name="width" value="200"/>
+      <Attribute name="height" value="200"/>
+    </DataObject>
+   </PageMap>
+ </url>
+<url>
+   <loc>http://www.drrahulvaghelamusic.com/earn it</loc>
+   <PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+     <DataObject type="thumbnail">
+      <Attribute name="src" value="https://drrahulvaghelamusic.com/earn it.png"/>
+      <Attribute name="width" value="200"/>
+      <Attribute name="height" value="200"/>
+    </DataObject>
+   </PageMap>
+ </url>
+<url>
+   <loc>http://www.drrahulvaghelamusic.com/sweetcelebration</loc>
+   <PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+     <DataObject type="thumbnail">
+      <Attribute name="src" value="https://drrahulvaghelamusic.com/Sweet celebration.png"/>
+      <Attribute name="width" value="200"/>
+      <Attribute name="height" value="200"/>
+    </DataObject>
+   </PageMap>
+ </url>
+
+</urlset>
