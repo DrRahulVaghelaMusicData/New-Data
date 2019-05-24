@@ -3,7 +3,7 @@
   [headers.values]
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
-Content-Security-Policy = "script-src 'self' https://ajax.cloudflare.com;style-src 'self' ajax.cloudflare.com; object-src 'self' ajax.cloudflare.com; connect-src 'self' ajax.cloudflare.com; frame-src 'self' ajax.cloudflare.com;media-src 'self' ajax.cloudflare.com;"
+Content-Security-Policy = "script-src 'all'";
 Content-Security-Policy-Report-Only = "default-src 'self';script-src 'self';object-src 'self';style-src 'self';media-src 'self';frame-src 'self';connect-src 'self' report-uri https://music.report-uri.com/r/d/csp/reportOnly;"
 X-Content-Security-Policy-Report-Only = "default-src 'self'; script-src 'self'; object-src 'self'; style-src 'self'; media-src 'self'; frame-src 'self'; connect-src 'self'"
 X-WebKit-CSP-Report-Only = "default-src 'self'; script-src 'self'; object-src 'self'; style-src 'self'; media-src 'self'; frame-src 'self'; connect-src 'self'"  
