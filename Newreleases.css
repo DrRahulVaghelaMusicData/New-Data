@@ -255,14 +255,14 @@ Box-shadow:1px 1px 10px black;}
 .Boxofdetailsoffirst {
     width: 100%;
     background-color: transparent;
-    font-size: 15px;
+    font-size: 25px;
 }
 
 .StroeieeswriteFirst {
     width: 100%;
     text-align: center;
     background-color: transparent;
-    font-size: 14px;
+    font-size: 23px;
     color: grey;
 }
 
@@ -314,13 +314,13 @@ Box-shadow:1px 1px 10px black;}
         -webkit-tap-highlight-color: transparent;
     }
     .FirstImageData {
-        font-size: 25px;
+        font-size: 27px;
     }
     .Boxofdetailsoffirst {
-        font-size: 15px;
+        font-size: 20px;
     }
     .StroeieeswriteFirst {
-        font-size: 14px;
+        font-size: 19px;
     }
 }
 
