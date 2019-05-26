@@ -256,6 +256,7 @@ Box-shadow:1px 1px 10px black;}
     width: 100%;
     background-color: transparent;
     font-size: 25px;
+    Line-height:2;
 }
 
 .StroeieeswriteFirst {
@@ -264,6 +265,7 @@ Box-shadow:1px 1px 10px black;}
     background-color: transparent;
     font-size: 23px;
     color: grey;
+    Line-height:2;
 }
 
 .Credit {
@@ -318,9 +320,11 @@ Box-shadow:1px 1px 10px black;}
     }
     .Boxofdetailsoffirst {
         font-size: 20px;
+        Line-height:2;
     }
     .StroeieeswriteFirst {
         font-size: 19px;
+        Line-height:2;
     }
 }
 
