@@ -476,7 +476,8 @@ Box-shadow:1px 1px 10px grey;
     text-align: center;
     letter-spacing: 1px;
     color: rgb(78, 78, 78);
-    line-height: 1;
+Font-size:25px;
+    line-height: 2;
     -webkit-tap-highlight-color: transparent;
 }
 
@@ -607,6 +608,9 @@ font-size:45px;
     }
 .WorkTitles{
 font-size:35px;
+}
+.underwordsthemetitle{
+Font-size:19px;
 }
     .Lettersoftitle {
         position: relative;
