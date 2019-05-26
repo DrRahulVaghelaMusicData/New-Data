@@ -563,7 +563,7 @@ Box-shadow:1px 1px 10px grey;
     display: block;
     position: relative;
     top: 200px;
-font-size:25px;
+font-size:45px;
 }
 
 .Homefooter {
@@ -605,6 +605,9 @@ font-size:25px;
         position: relative;
         top: -20px;
     }
+.WorkTitles{
+font-size:35px;
+}
     .Lettersoftitle {
         position: relative;
         top: 30px;
