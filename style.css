@@ -167,7 +167,9 @@ body {
     justify-content: center;
     position: relative;
     top: 50px;
-    font-size:20px;
+}
+.Navbar a{
+font-size:20px;
 }
 
 .Homebuttonnav {
