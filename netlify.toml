@@ -8,3 +8,4 @@ Content-Security-Policy-Report-Only = "default-src 'self';script-src 'strict-dyn
 X-Content-Security-Policy-Report-Only = "default-src 'self'; script-src 'self'; object-src 'self'; style-src 'self'; media-src 'self'; frame-src 'self'; connect-src 'self'"
 X-WebKit-CSP-Report-Only = "default-src 'self'; script-src 'self'; object-src 'self'; style-src 'self'; media-src 'self'; frame-src 'self'; connect-src 'self'"  
 Referrer-Policy = "no-referrer"
+Feature-Policy = "vibrate none; notifications none; push none; sync-xhr none; microphone none; camera none; magnetometer none; gyroscope none;fullscreen none; payment none;"
