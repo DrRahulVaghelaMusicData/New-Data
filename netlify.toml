@@ -3,7 +3,7 @@
   [headers.values]
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
-Content-Security-Policy ="sandbox allow-forms allow-same-origin allow-scripts;default-src 'self'; script-src 'self' cdnjs.cloudflare.com; img-src 'self'; font-src 'self' fonts.gstatic.com cdnjs.cloudflare.com; form-action 'self'; report-uri https://music.report-uri.com/r/default/csp/enforce;"
+Content-Security-Policy ="sandbox allow-forms allow-same-origin allow-scripts;"
 Content-Security-Policy-Report-Only = "default-src 'self';script-src 'strict-dynamic' 'nonce-rAndOm123' 'unsafe-inline' http: https:;base-uri 'none';object-src 'none';style-src 'self';media-src 'self';frame-src 'self';connect-src 'self';report-uri https://music.report-uri.com/r/d/csp/reportOnly;"
 X-Content-Security-Policy-Report-Only = "default-src 'self'; script-src 'self'; object-src 'self'; style-src 'self'; media-src 'self'; frame-src 'self'; connect-src 'self'"
 X-WebKit-CSP-Report-Only = "default-src 'self'; script-src 'self'; object-src 'self'; style-src 'self'; media-src 'self'; frame-src 'self'; connect-src 'self'"  
