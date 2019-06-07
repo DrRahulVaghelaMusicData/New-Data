@@ -6,5 +6,5 @@
 Content-Security-Policy ="sandbox allow-forms allow-same-origin allow-scripts;"
 Content-Security-Policy-Report-Only = "sandbox allow-forms allow-same-origin allow-scripts;"
 X-WebKit-CSP-Report-Only = "sandbox allow-forms allow-same-origin allow-scripts;"
-Xeferrer-Policy = "no-referrer"
+Referrer-Policy = "no-referrer"
 Feature-Policy = "vibrate none; notifications none; push none; sync-xhr none; microphone none; camera none; magnetometer none; gyroscope none;fullscreen none; payment none;"
