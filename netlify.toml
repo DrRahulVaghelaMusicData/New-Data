@@ -3,8 +3,8 @@
   [headers.values]
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
-Content-Security-Policy ="sandbox allow-forms allow-same-origin allow-scripts;"
+Content-Security-Policy ="sandbox allow-forms allow-same-origin allow-scripts:frame-ancestors*;"
 Content-Security-Policy-Report-Only = "sandbox allow-forms allow-same-origin allow-scripts;"
 X-WebKit-CSP-Report-Only = "sandbox allow-forms allow-same-origin allow-scripts;"
 Referrer-Policy = "no-referrer"
-Feature-Policy = "vibrate none; notifications none; push none; sync-xhr none; microphone none; camera none; magnetometer none; gyroscope none;fullscreen none; payment none;"
+Feature-Policy = " magnetometer none; gyroscope none;"
