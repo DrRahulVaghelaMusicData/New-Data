@@ -94,7 +94,7 @@ body {
 
 .Cookietitl {
     width: 100%;
-    color: grey;
+    color: white;
     letter-spacing: 10px;
 }
 
@@ -688,9 +688,11 @@ Font-size:19px;
     }
     .CookiePolicypagepop {
         font-size: 10px;
+        Background-color:#7d42f4;
     }
     .Cookietitl {
         letter-spacing: 1px;
+        Color:white;
     }
     .Buttncooki {
         padding-right: 10px;
@@ -704,6 +706,7 @@ Font-size:19px;
     }
     .CookiePolicypagepop {
         height: 180px;
+        Background-color:#7d42f4;
     }
     .AcceptButtncooki {
         padding-left: 50px;
