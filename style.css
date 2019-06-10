@@ -348,6 +348,7 @@ Color:#7d42f4;
     top: 150px;
     justify-content: center;
     align-content: center;
+    z-index:10;
     -webkit-tap-highlight-color: transparent;
 }
 
