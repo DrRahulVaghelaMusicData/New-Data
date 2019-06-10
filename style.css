@@ -350,6 +350,8 @@ Color:#7d42f4;
     align-content: center;
     z-index:10;
     -webkit-tap-highlight-color: transparent;
+        animation: fade 50s infinite ease;
+
 }
 
 @keyframes simpleanimation {
