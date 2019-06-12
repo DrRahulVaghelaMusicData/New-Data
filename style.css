@@ -528,6 +528,8 @@ Box-shadow:1px 1px 10px grey;
     width: 100%;
     letter-spacing: 2px;
     color:rgb(61, 61, 61);
+    animation: fontswhite 80s infinite ease;
+
 }
 
 .underwordsthemetitle {
@@ -537,6 +539,7 @@ Box-shadow:1px 1px 10px grey;
     color: rgb(61, 61, 61);
 Font-size:25px;
     line-height: 2;
+    animation: fontswhite 80s infinite ease;
     -webkit-tap-highlight-color: transparent;
 }
 
