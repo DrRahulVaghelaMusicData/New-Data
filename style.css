@@ -177,6 +177,19 @@ html{
     position: relative;
     letter-spacing: 10px;
     text-decoration: none;
+    animation: fontdif 80s infinite ease;
+}
+@keyframes fontdif{
+
+    0%{
+    color:white;
+    }
+    50%{
+    color:black;
+    }
+    100%{
+    color:white;
+    }
 }
 
 @keyframes fontswhite {
