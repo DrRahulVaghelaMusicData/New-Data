@@ -260,7 +260,7 @@ font-size:20px;
 
 #Hamburger {
     position: absolute;
-Color:#7d42f4;
+    Color:#7d42f4;
     cursor: pointer;
     left: 10px;
     top: 450px;
@@ -273,9 +273,20 @@ Color:#7d42f4;
     border: none;
     -webkit-tap-highlight-color: transparent;
     padding-bottom: 10px;
+    Animation: changeoffads 80s infinite ease;
 }
 
-
+@keyframes changeoffads {
+0%{
+color:#7d42f4;
+}
+50%{
+color:white;
+}
+100%{
+color:#7d42f4;
+}
+}
 .Closeit {
     text-decoration: none;
     color: rgb(0, 0, 0);
