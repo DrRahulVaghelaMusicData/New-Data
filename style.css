@@ -180,6 +180,19 @@ html{
     text-decoration: none;
 }
 
+@keyframes fontswhite {
+    0%{
+    color:black;
+    }
+    50%{
+    color:white;
+    }
+    100%{
+        color:black;
+    }
+    
+}
+
 .Navbar {
     width: 100%;
     display: flex;
@@ -187,10 +200,15 @@ html{
     justify-content: center;
     position: relative;
     top: 50px;
+    animation: fontswhite 80s infinite ease;
+
 }
 .Navbar a{
 font-size:20px;
+animation: fontswhite 80s infinite ease;
+
 }
+
 
 .Homebuttonnav {
     text-decoration: none;
@@ -491,6 +509,8 @@ Box-shadow:1px 1px 10px grey;
     letter-spacing: 10px;
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;
+    animation: fontswhite 80s infinite ease;
+
 }
 
 .ThemeTracks {
@@ -500,6 +520,8 @@ Box-shadow:1px 1px 10px grey;
     top: 200px;
     color: rgb(61, 61, 61);
     letter-spacing: 10px;
+    animation: fontswhite 80s infinite ease;
+
 }
 
 .Secondtitleoftheme {
@@ -602,6 +624,8 @@ Font-size:25px;
     position: relative;
     top: 200px;
 font-size:35px;
+   animation: fontswhite 80s infinite ease;
+
 }
 
 .Homefooter {
