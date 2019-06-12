@@ -257,5 +257,24 @@
     </DataObject>
    </PageMap>
  </url>
-
+       <url>
+   <loc>http://www.drrahulvaghelamusic.com/download</loc>
+   <PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+     <DataObject type="thumbnail">
+      <Attribute name="src" value="https://drrahulvaghelamusic.com/Sweet celebration.png"/>
+      <Attribute name="width" value="200"/>
+      <Attribute name="height" value="200"/>
+    </DataObject>
+   </PageMap>
+ </url>
+<url>
+   <loc>http://www.drrahulvaghelamusic.com/production area</loc>
+   <PageMap xmlns="http://www.google.com/schemas/sitemap-pagemap/1.0">
+     <DataObject type="thumbnail">
+      <Attribute name="src" value="https://drrahulvaghelamusic.com/Sweet celebration.png"/>
+      <Attribute name="width" value="200"/>
+      <Attribute name="height" value="200"/>
+    </DataObject>
+   </PageMap>
+ </url>
 </urlset>
