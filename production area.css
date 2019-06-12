@@ -113,7 +113,7 @@ html{
     text-decoration: none;
     color: purple;
     padding-right: 15px;
-    Transition: 2s ease:;
+    Transition: 2s ease;
     -webkit-tap-highlight-color: transparent;
 }
 
