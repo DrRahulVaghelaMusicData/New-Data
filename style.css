@@ -4,6 +4,9 @@ body {
     background-color: white;
     animation: fade 50s infinite ease;
 }
+html{
+    scroll-behaviour:smooth;
+}
 
 @keyframes fade {
     0%{
