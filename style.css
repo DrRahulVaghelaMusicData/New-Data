@@ -232,7 +232,7 @@ animation: fontswhite 80s infinite ease;
     -ms-transition: 1s ease;
     -o-transition: 1s ease;
     transition: 1s ease;
-    -webkit-tap-highlight-color: white;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .Homebuttonnav:hover {
@@ -252,7 +252,7 @@ animation: fontswhite 80s infinite ease;
     -moz-transition: ;
     -ms-transition: ;
     -o-transition: ;
-    -webkit-tap-highlight-color: white;
+    -webkit-tap-highlight-color: transparent;
 }
 
 
@@ -269,7 +269,7 @@ animation: fontswhite 80s infinite ease;
     -ms-transition: 1s ease;
     -o-transition: 1s ease;
      transition: 1s ease;
-    -webkit-tap-highlight-color: white;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .Contactbutton:hover {
@@ -285,7 +285,7 @@ animation: fontswhite 80s infinite ease;
     -ms-transition: 1s ease;
     -o-transition: 1s ease;
     transition: 1s ease;
-    -webkit-tap-highlight-color: white;
+    -webkit-tap-highlight-color: transparent;
 }
 
 #Hamburger {
