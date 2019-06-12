@@ -112,6 +112,7 @@ html{
 .Buttonsoftermsd a {
     text-decoration: none;
     border: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .Buttncooki {
@@ -121,6 +122,7 @@ html{
     width: 100%;
     top: 20px;
     align-content: center;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .AcceptButtncooki {
@@ -129,6 +131,7 @@ html{
     cursor: pointer;
     color: rgb(0, 0, 0);
     align-content: center;
+   -webkit-tap-highlight-color: transparent;
 }
 
 .websitetitle {
