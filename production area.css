@@ -1,8 +1,23 @@
 body {
     scroll-behavior: smooth;
     background-color: rgb(125, 18, 197);
+    animation: change 80s infinite ease-in;
 }
 
+@keyframes change {
+    0%{
+    background-color: rgb(125, 18, 197);
+    }
+    50%{
+    background-color: black;
+    }
+    100%{
+        background-color:rgb(125, 18, 197);
+    }
+}
+html{
+    scroll-behaviour:smooth;
+}
 .Headingofpage {
     width: 100%;
     justify-content: center;
