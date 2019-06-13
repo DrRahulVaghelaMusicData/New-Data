@@ -3,4 +3,4 @@
   [headers.values]
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
-    content-security-policy = "script-src 'strict-dynamic' 'nonce-rAnd0m123' http: https: https://ajax.cloudflare.com/cdn-cgi/scripts/a2bd7673/cloudflare-static/rocket-loader.min.js; object-src 'none'; base-uri 'none';"
+    content-security-policy = "script-src 'self' 'nonce-rAnd0m123' http: https: https://ajax.cloudflare.com/cdn-cgi/scripts/a2bd7673/cloudflare-static/rocket-loader.min.js; object-src 'none'; base-uri 'none';"
