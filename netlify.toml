@@ -3,4 +3,4 @@
   [headers.values]
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
-    content-security-policy = "script-src 'strict-dynamic' 'nonce-rAnd0m123' 'unsafe-inline' http: https:; object-src 'none'; base-uri 'none';"
+    content-security-policy = "script-src 'strict-dynamic' 'nonce-rAnd0m123' http: https:; object-src 'none'; base-uri 'none';"
