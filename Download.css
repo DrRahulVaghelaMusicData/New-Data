@@ -16,32 +16,9 @@ html {
     align-items: center;
     bottom: 20px;
     color: white;
-    animation: head ease-in 21s infinite;
-    -webkit-animation: head ease-in 21s infinite;
+  
 }
 
-.MainHeadingofpage:hover {
-    animation: none;
-    -webkit-animation: none;
-}
-
-@keyframes head {
-    0% {
-        opacity: 0;
-        background-color: brown;
-        color: rgb(0, 0, 0);
-    }
-    50% {
-        opacity: 1;
-        background-color: blueviolet;
-        color: rgb(255, 255, 255);
-    }
-    100% {
-        opacity: 0;
-        background-color: brown;
-        color: rgb(0, 0, 0);
-    }
-}
 
 .wordsofhead {
     position: relative;
