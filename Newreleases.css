@@ -188,16 +188,16 @@ Color:#1fe26a;
     0% {
         opacity: 0;
         display: none;
-        transform:scale(1);
+        transform:scale(0.5);
     }
     50% {
         opacity: 1;
         display: flex;
-        transform:scale(2);
+        transform:scale(1);
     }
     100% {
         opacity: 0;
-        transform:scale(1);
+        transform:scale(0.5);
     }
 }
 
