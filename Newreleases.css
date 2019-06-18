@@ -172,7 +172,19 @@ Color:#1fe26a;
     background-color: transparent;
 }
 @media only screen and (min-width:10px) and (max-width:600px){
-
+    .Firstimage{
+      animation: Slidertest 30s infinite ease-in;
+    -webkit-animation: Slidertest 30s infinite ease-in;
+    }
+    
+    .Secondimage{
+        animation: Slidertest 60s infinite ease;
+    -webkit-animation: Slidertest 60s infinite ease;
+    }
+    .ThirdImage{
+        animation: Slidertest 90s infinite ease;
+    -webkit-animation: Slidertest 90s infinite ease;
+    }
 @keyframes Slidertest {
     0% {
         opacity: 0;
