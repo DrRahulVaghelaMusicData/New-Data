@@ -78,7 +78,7 @@ body {
 .Wordsfornew {
     width: 100%;
     position: relative;
-    font-size: 40px;
+    font-size: 10px;
     top: 130px;
     letter-spacing: 10px;
     color: white;
@@ -179,27 +179,10 @@ Color:#1fe26a;
     align-content: center;
     justify-content: center;
     text-align: center;
-    transition: 1s  ease;
-    animation: Slidertest 30s infinite ease-in;
-    -webkit-animation: Slidertest 30s infinite ease-in;
+    transform:scale(1.5);
 }
 
-@keyframes Slidertest {
-    0% {
-        opacity: 0;
-        display: none;
-        transform:scale(1);
-    }
-    50% {
-        opacity: 1;
-        display: flex;
-        transform:scale(2);
-    }
-    100% {
-        opacity: 0;
-        transform:scale(1);
-    }
-}
+
 
 .Firstimage>img {
     width: 100%;
@@ -213,9 +196,8 @@ Box-shadow:1px 1px 10px black;
     text-align: center;
     align-content: center;
     background-color: transparent;
-    transition: 1s  ease;
-    animation: Slidertest 60s infinite ease;
-    -webkit-animation: Slidertest 60s infinite ease;
+    transform:scale(1.5);
+
 }
 
 .Secondimage>img {
@@ -228,10 +210,9 @@ Box-shadow:1px 1px 10px black;}
     justify-content: center;
     text-align: center;
     align-content: center;
-    transition: 1s  ease;
+    transform:scale(1.5);
     background-color: transparent;
-    animation: Slidertest 90s infinite ease;
-    -webkit-animation: Slidertest 90s infinite ease;
+  
 }
 
 .ThridImage>img {
