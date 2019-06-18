@@ -179,7 +179,6 @@ Color:#1fe26a;
     align-content: center;
     justify-content: center;
     text-align: center;
-    transform:scale(1.5);
 }
 
 
@@ -196,7 +195,6 @@ Box-shadow:1px 1px 10px black;
     text-align: center;
     align-content: center;
     background-color: transparent;
-    transform:scale(1.5);
 
 }
 
@@ -210,7 +208,6 @@ Box-shadow:1px 1px 10px black;}
     justify-content: center;
     text-align: center;
     align-content: center;
-    transform:scale(1.5);
     background-color: transparent;
   
 }
