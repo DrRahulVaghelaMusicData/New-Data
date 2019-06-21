@@ -11,6 +11,6 @@ Referrer-Policy ="no-referrer-when-downgrade"
     
     [[redirects]]
   from = "https://drrahulvaghelamusic.netlify.com"
-  to = "https://drrahulvaghelamusic.com"
+  to = "https://www.drrahulvaghelamusic.com"
   status = 200
   force = true
