@@ -6,6 +6,7 @@
     Content-Security-Policy = " script-src https://ajax.cloudflare.com/cdn-cgi/scripts/a2bd7673/cloudflare-static/rocket-loader.min.js https://d33wubrfki0l68.cloudfront.net/js/7cde48d76eb896e4e27ee7670ed5b05a5cdbb008/simplejs.js 'unsafe-inline'; "
 Referrer-Policy ="no-referrer-when-downgrade"
     Feature-Policy = "payment 'none' "
+    X-Content-Type-Options = "nosniff"
     
     
     [[redirects]]
