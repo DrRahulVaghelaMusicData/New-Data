@@ -218,9 +218,11 @@ html{
 .Navbar a{
 font-size:20px;
 animation: fontswhite 80s infinite ease;
-
+ transition: 2s ease;
 }
-
+.Navbar a:hover{
+animation:none;
+}
 
 .Homebuttonnav {
     text-decoration: none;
