@@ -693,15 +693,12 @@ Font-size:19px;
         top: 30px;
         letter-spacing: 1px;
     }
-    .Navbar {
-        top: 50px;
-        font-size: 15px;
-    }
+ 
     #Hamburger {
         top: 130px;
     }
     .SitesliderNav {
-        padding-top: 100px;
+        padding-top: 10px;
         font-size: 15px;
     }
     .FeaturedUpcomingWork {
@@ -791,5 +788,20 @@ Box-shadow:1px 1px 10px rgb(144, 75, 255);
         justify-content: center;
         align-content: center;
         top: 200px;
+    }
+}
+
+@media only screen and (min-width:420px) and (max-width:800px){
+    .Navbar a {
+        top: 50px;
+        font-size: 19px;
+        padding: 17px;
+    }
+}
+@media only screen and (min-width:10px) and (max-width:419px){
+    .Navbar a {
+        top: 50px;
+        font-size: 19px;
+        padding: 4px;
     }
 }
