@@ -220,6 +220,7 @@ body {
     position: absolute;
     cursor: pointer;
     left: 10px;
+    font-size:25px;
     top: 550px;
     color:#0e9e8f;
     transition: margin-left 2s ease-out;
