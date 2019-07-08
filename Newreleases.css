@@ -90,6 +90,7 @@ body {
     left: 10px;
     top: 350px;
 Color:#1fe26a;
+    font-size:25px;
     transition: margin-left 2s ease-out;
     -webkit-transition: margin-left 2s ease-out;
     -moz-transition: margin-left 2s ease-out;
