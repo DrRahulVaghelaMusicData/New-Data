@@ -326,3 +326,35 @@ html {
     animation: rotatingloader 1s infinite ease;
     -webkit-animation: rotatingloader 1s infinite ease;
 }
+
+@media only screen and (min-width:900px){
+
+    .Navbar a{
+        padding: 40px;
+        font-size: 40px;
+    }
+    .Albumartwork>img{
+        width: 600px;
+    }
+    .wordsofhead{
+        font-size: 60px;
+    }
+  .Spotifyblockhere>iframe{
+      width: 400px;
+      height: 500px;
+  }
+  .schemarelatedthings{
+      font-size: 40px;
+      line-height: 1.5;
+  }
+  .SocialShareMedia a{
+      padding: 20px;
+  }
+.ArtistPagemusicplateform{
+    font-size: 40px;
+    color: black;
+}
+.Credit{
+    font-size: 20px;
+}
+}
