@@ -5,7 +5,7 @@ body {
     animation: fade 80s infinite ease;
 }
 html{
-    scroll-behaviour:smooth;
+    scroll-behavior:smooth;
 }
 
 @keyframes fade {
