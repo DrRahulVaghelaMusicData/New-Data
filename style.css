@@ -76,9 +76,9 @@ html{
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     border-radius: 50%;
-    box-shadow: 1px 1px 66px rgb(144, 75, 255);
-    animation: rotatingloader 1s infinite ease;
-    -webkit-animation: rotatingloader 1s infinite ease;
+    box-shadow: 1px 1px 66px #dedede;
+    animation: rotatingloader 5s infinite ease;
+    -webkit-animation: rotatingloader 5s infinite ease;
 }
 
 .CookiePolicypagepop {
