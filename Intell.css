@@ -47,8 +47,8 @@ body {
 .Imagehere {
     width: 100%;
     display: block;
-    animation: move 1s infinite ease;
-    -webkit-animation: move 1s infinite ease;
+    animation: move 10s infinite ease;
+    -webkit-animation: move 10s infinite ease;
 }
 
 @keyframes move {
