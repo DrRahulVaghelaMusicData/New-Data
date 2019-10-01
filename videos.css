@@ -28,3 +28,91 @@ body{
     justify-content: center;
     color:white;
 }
+.Navbar {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    animation: fontswhite 80s infinite ease;
+
+}
+.Navbar a{
+font-size:20px;
+animation: fontswhite 80s infinite ease;
+}
+
+
+.Homebuttonnav {
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+    cursor: pointer;
+    padding-right: 40px;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -ms-transition: 1s ease;
+    -o-transition: 1s ease;
+    transition: 1s ease;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.Homebuttonnav:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.Musicbutton:hover {
+    color: black;
+}
+
+.Musicbutton {
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+    transition: 1s ease;
+    -webkit-transition: ;
+    -moz-transition: ;
+    -ms-transition: ;
+    -o-transition: ;
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+.Newmusicbutton:hover {
+    color: black;
+}
+
+.Newmusicbutton {
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+    padding-left: 40px;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -ms-transition: 1s ease;
+    -o-transition: 1s ease;
+     transition: 1s ease;
+    -webkit-tap-highlight-color: transparent;
+}
+@font-face{
+    font-family: ModifiedToday;
+    src: url(/BLOWUP.ttf);
+}
+@font-face{
+    font-family:GreatVibes;
+    src: url(/GreatVibes-Regular.otf);
+}
+.Contactbutton:hover {
+    color: black;
+}
+
+.Contactbutton {
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+    padding-left: 40px;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -ms-transition: 1s ease;
+    -o-transition: 1s ease;
+    transition: 1s ease;
+    -webkit-tap-highlight-color: transparent;
+}
