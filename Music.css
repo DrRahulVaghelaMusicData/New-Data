@@ -60,9 +60,9 @@ body {
     -ms-border-radius: 50%;
    -o-border-radius: 50%;
     border-radius: 50%;
-    box-shadow: 1px 1px 66px rgb(144, 75, 255);
-    -webkit-animation: rotatingloader 1s infinite ease;
-    animation: rotatingloader 1s infinite ease;
+    box-shadow: 1px 1px 86px rgb(255, 255, 255);
+    -webkit-animation: rotatingloader 5s infinite ease-in;
+    animation: rotatingloader 5s infinite ease-in;
 }
 
 .headermusictit {
