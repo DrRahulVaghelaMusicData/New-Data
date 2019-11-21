@@ -3,7 +3,7 @@
   [headers.values]
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block" 
-    Content-Security-Policy = " script-src https://ajax.cloudflare.com/cdn-cgi/scripts/a2bd7673/cloudflare-static/rocket-loader.min.js https://d33wubrfki0l68.cloudfront.net/js/7cde48d76eb896e4e27ee7670ed5b05a5cdbb008/simplejs.js https://ajax.cloudflare.com/cdn-cgi/scripts/95c75768/cloudflare-static/rocket-loader.min.js 'unsafe-inline'; "
+    Content-Security-Policy = " script-src https://ajax.cloudflare.com/cdn-cgi/scripts/a2bd7673/cloudflare-static/rocket-loader.min.js https://d33wubrfki0l68.cloudfront.net/js/7cde48d76eb896e4e27ee7670ed5b05a5cdbb008/simplejs.js https://ajax.cloudflare.com/cdn-cgi/scripts/95c75768/cloudflare-static/rocket-loader.min.js https://cse.google.com/cse.js?cx=partner-pub-5393875451465514 https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js 'unsafe-inline'; "
 Referrer-Policy ="no-referrer-when-downgrade"
     Feature-Policy = "payment 'none' "
     X-Content-Type-Options = "nosniff"
