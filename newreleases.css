@@ -1,0 +1,302 @@
+body{
+    scroll-behavior: smooth;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+}
+html{
+    scroll-behavior: smooth;
+}
+.storypart{
+    width: 100%;
+    padding: 5px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: left;
+    font-family:'Times New Roman', Times, serif;
+    font-size: x-large;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+}
+.storypart>.smallones{
+font-size:small;
+}
+.storypart>.littlelarge{
+    font-size:large ;
+}
+
+.Loader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    z-index: 99;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.Loader.hidden {
+    display: none;
+}
+
+.movlogo {
+    position: relative;
+    width: 100px;
+    justify-content: center;
+    align-content: center;
+    top: 300px;
+}
+
+@keyframes rotatingloader {
+    0% {
+        opacity: 0;
+        -webkit-transform: rotateZ(1000deg);
+        -moz-transform: rotateZ(1000deg);
+        -ms-transform: rotateZ(1000deg);
+        -o-transform: rotateZ(1000deg);
+         transform: rotateZ(1000deg);
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: rotateZ(2000deg);
+        -moz-transform: rotateZ(2000deg);
+        -ms-transform: rotateZ(2000deg);
+        -o-transform: rotateZ(2000deg);
+         transform: rotateZ(2000deg);
+    }
+}
+
+.movlogo>img {
+    width: 100%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    box-shadow: 1px 1px 66px rgb(144, 75, 255);
+    animation: rotatingloader 1s infinite ease;
+    -webkit-animation: rotatingloader 1s infinite ease;
+}
+#Hamburger {
+    position: absolute;
+    cursor: pointer;
+    left: 10px;
+    top: 50px;
+Color:#0c0c0c;
+    font-size:25px;
+    transition: margin-left 2s ease-out;
+    -webkit-transition: margin-left 2s ease-out;
+    -moz-transition: margin-left 2s ease-out;
+    -ms-transition: margin-left 2s ease-out;
+    -o-transition: margin-left 2s ease-out;
+    text-decoration: none;
+    border: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.Closeit {
+    text-decoration: none;
+    text-transform: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    position: relative;
+    left: 40px;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.SitesliderNav a {
+    text-decoration: none;
+    padding: 20px 20px 13px 10px;
+    display: block;
+    color: black;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.SitesliderNav a:hover {
+    color: goldenrod;
+}
+
+.SitesliderNav {
+    position: fixed;
+    padding-top: 10px;
+    height: 100%;
+    width: 0;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    transition: all 1.2s ease-in-out;
+    overflow-x: hidden;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    animation: slidehereo 3s ease-in-out;
+    box-shadow: 1px 1px 10px rgb(167, 167, 167);
+    -webkit-tap-highlight-color: transparent;
+}
+
+@keyframes slidehereo {
+    0% {
+        opacity: 0.5;
+        background-color:black;
+        color: black;
+    }
+    100% {
+        opacity: 1;
+        background-color:white;
+        color: black;
+    }
+
+}
+.divisions{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(167, 167, 167);
+}
+.titleheader{
+    width: 100%;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.divisionsG{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(87, 140, 255);
+}
+.divisionsR{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(7, 110, 194);
+}
+.divisionW{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+.divisionP{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+}
+.FirstImageData{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.imagework{
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+.imagework>img{
+    width: 100%;
+}
+.storypart>.middleones{
+    text-align: center;
+    letter-spacing: 5px;
+}
+.tracksofthealbum{
+    text-align: center;
+    font-size: larger;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+.footer{
+    width: 100%;
+    text-decoration: none;
+    text-transform: none;
+    text-align: center;
+}
+.footer a{
+text-decoration: none;
+text-transform: none;
+color: black;
+letter-spacing: 5px;
+font-family: 'Times New Roman', Times, serif;
+font-size: x-large;
+}
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.navbar{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+.navbar a{
+    text-transform: none;
+text-decoration: none;
+color: black;
+padding: 40px;
+font-size: xx-large;
+outline: none;
+transition: all cubic-bezier(0.645, 0.045, 0.355, 1) 1s;
+}
+.navbar a:hover{
+    color: goldenrod;
+    padding: 80px;
+}
+@media only screen and (min-width:10px) and (max-width:900px) {
+    #Hamburger {
+        position: absolute;
+        cursor: pointer;
+        left: 10px;
+        top: 50px;
+        transition: margin-left 2s ease-out;
+        -webkit-transition: margin-left 2s ease-out;
+        -moz-transition: margin-left 2s ease-out;
+        -ms-transition: margin-left 2s ease-out;
+        -o-transition: margin-left 2s ease-out;
+        text-decoration: none;
+        border: none;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .FirstImageData{
+        font-size: large;
+    }
+    .storypart{
+        font-size: large;
+    }
+    .tracksofthealbum{
+        font-size: larger;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+    }
+    .navbar a{
+        padding: 4px;
+        font-size: large;
+        outline: none;
+    }
+    .navbar a:hover{
+        color: goldenrod;
+        padding: 8px;
+    }
+}
