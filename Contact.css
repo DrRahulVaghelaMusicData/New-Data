@@ -151,3 +151,12 @@ Color:grey;
     -ms-transition: all 1s ease;
     -o-transition: all 1s ease;
 }
+
+.imgdiv{
+     width:100%;
+    justify-content:center;
+    align-content:center;
+}
+.imgdiv>img{
+    width:100%;
+}
