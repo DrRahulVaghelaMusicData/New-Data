@@ -6,7 +6,16 @@ body{
 html{
     scroll-behavior: smooth;
 }
-
+.privatefile{
+width:100%;
+    text-align:center;
+    justify-content:center;
+}
+.privatefile a{
+text-decoration:none;
+    text-transformation:none;
+    color:goldenrod;
+}
 .applediv{
     width:100%;
     justify-content:center;
