@@ -6,6 +6,12 @@ body{
 html{
     scroll-behavior: smooth;
 }
+
+.applediv{
+    width:100%;
+    justify-content:center;
+    align-content:center;
+}
 .spotifydiv{
     width:100%;
     justify-content:center;
