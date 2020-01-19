@@ -304,6 +304,13 @@ body {
     letter-spacing: 10px;
 }
 
+.IntellectualHumanslink{
+      width: 100%;
+    text-align: center;
+    position: relative;
+    top: 270px;
+    justify-content: center;
+}
 .SweetCelebrationlink {
     width: 100%;
     text-align: center;
@@ -455,7 +462,12 @@ body {
     top: 2050px;
     justify-content: center;
 }
-
+.IntellectualHumanslink>img{
+    align-content: center;
+    box-shadow: 1px 1px 110px  #3366ff;
+    animation: little 1s ease;
+    -webkit-animation: little 1s ease;
+}
 .AncientThrilllink>img {
     align-content: center;
     box-shadow: 1px 1px 110px rgb(15, 252, 161);
@@ -593,7 +605,10 @@ body {
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;
 }
-
+.IntellectualHumanslink>img:hover{
+    animation:none;
+    -webkit-animation:none;
+}
 .AncientThrilllink>img:hover {
     animation: none;
     -webkit-animation: none;
@@ -716,6 +731,12 @@ body {
     }
 }
 
+.titleIntellectual{
+ width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+}
 .titleAWALKinDream {
     width: 100%;
     text-align: center;
@@ -893,7 +914,8 @@ body {
     .Nightinvenicelink>img,
     .ZionAndBeautylink>img,
     .PerspectiveThrilllink>img,
-    .AncientThrilllink>img
+    .AncientThrilllink>img,
+    .IntellectualHumanslink>img
 
     {
 width: 600px;
@@ -927,7 +949,8 @@ width: 600px;
 .titleNightinvenice,
 .titleZionAndBeauty,
 .titlePerspectiveThrill,
-.titleAncient
+.titleAncient,
+    titleIntellectual
 {
     width: 100%;
     text-align: center;
