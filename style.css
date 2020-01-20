@@ -437,7 +437,11 @@ color:#7d42f4;
     -webkit-animation: simpleanimation infinite 5s ease;
     animation: simpleanimation infinite 5s ease;
 }
-
+.FirstRelease>a>img{
+width:100%;
+    box-shadow:1px 1px 10px grey;
+    
+}
 .FirstRelease>img {
     width: 100%;
 Box-shadow:1px 1px 10px grey;
