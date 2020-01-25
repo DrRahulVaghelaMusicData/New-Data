@@ -19,6 +19,28 @@ html{
     background-color:white;
     }
 }
+.viewcounter{
+    width: 100%;
+    text-align: center;
+    letter-spacing: 5px;
+    color: black;
+    opacity: 0;
+    animation: countanim 100s infinite;
+}
+@keyframes countanim {
+
+    0%{
+        opacity: 0.5;
+    }
+    50%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 0.5;
+    }
+
+}
 
 .Loader {
     position: fixed;
