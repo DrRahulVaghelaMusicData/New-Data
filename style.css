@@ -26,6 +26,7 @@ html{
     letter-spacing: 5px;
     color: black;
     opacity: 0;
+    top:200px;
     animation: countanim 100s infinite;
 }
 @keyframes countanim {
