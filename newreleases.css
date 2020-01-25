@@ -283,6 +283,30 @@ transition: all cubic-bezier(0.645, 0.045, 0.355, 1) 1s;
     color: goldenrod;
     padding: 80px;
 }
+.viewcounter{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 5px;
+    color: black;
+    opacity: 0;
+    animation: fade 100s infinite;
+}
+@keyframes fade {
+
+    0%{
+        opacity: 0.5;
+    }
+    50%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 0.5;
+    }
+
+}
+
 @media only screen and (min-width:10px) and (max-width:900px) {
     #Hamburger {
         position: absolute;
