@@ -130,5 +130,25 @@
     </div>
     <p class="notice">We have no videos other than these listed videos on this official website so if you find one then they might be fake ones or have no relation to our music!</p>
 <script async src='https://cse.google.com/cse.js?cx=partner-pub-5393875451465514:4505395022'></script><div class="gcse-searchbox-only"></div>
+    <div class="viewcounter">  
+<p>Views from January 26th 2020</p>
+<h1 id="count">0</h1>
+  </div>
+
+<script>
+const countEl = document.getElementById('count');
+
+updateVisitCount();
+
+function updateVisitCount() {
+	fetch('https://api.countapi.xyz/update/drrahulvaghelamusic.com/drrahulvaghelamusiccount/?amount=1')
+	.then(res => res.json())
+	.then(res => {
+		countEl.innerHTML = res.value;
+	})
+}
+
+</script>
     </body>
+    
 </html>
