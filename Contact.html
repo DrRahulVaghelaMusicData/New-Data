@@ -90,7 +90,27 @@
         <p itemprop="copyrightHolder">&copysr;Rahul Shailesh Vaghela</p>
         <div class="imgdiv">
 <img src="Lightsroundmoon.jpg" alt="Dr Rahul Vaghela Music">
+            
 </div>
+         <div class="viewcounter">  
+<p>Views from January 26th 2020</p>
+<h1 id="count">0</h1>
+  </div>
+
+<script>
+const countEl = document.getElementById('count');
+
+updateVisitCount();
+
+function updateVisitCount() {
+	fetch('https://api.countapi.xyz/update/drrahulvaghelamusic.com/drrahulvaghelamusiccount/?amount=1')
+	.then(res => res.json())
+	.then(res => {
+		countEl.innerHTML = res.value;
+	})
+}
+
+</script>
 </body>
 
 </html>
