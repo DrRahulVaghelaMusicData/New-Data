@@ -189,7 +189,25 @@
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/gu_IN/sdk.js#xfbml=1&version=v3.3"></script>
 
+<div class="viewcounter">  
+<p>Views from January 26th 2020</p>
+<h1 id="count">0</h1>
+  </div>
 
+<script>
+const countEl = document.getElementById('count');
+
+updateVisitCount();
+
+function updateVisitCount() {
+	fetch('https://api.countapi.xyz/update/drrahulvaghelamusic.com/drrahulvaghelamusiccount/?amount=1')
+	.then(res => res.json())
+	.then(res => {
+		countEl.innerHTML = res.value;
+	})
+}
+
+</script>
 </body>
 
 </html>
