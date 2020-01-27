@@ -360,3 +360,27 @@ html {
     font-size: 20px;
 }
 }
+.viewcounter{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 5px;
+    color: black;
+    opacity: 0;
+    animation: fade 100s infinite;
+}
+@keyframes fade {
+
+    0%{
+        opacity: 0.5;
+    }
+    50%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 0.5;
+    }
+
+}
+
