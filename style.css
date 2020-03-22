@@ -458,8 +458,7 @@ color:#7d42f4;
 
 .FirstRelease {
     width: 200px;
-    -webkit-animation: simpleanimation infinite 5s ease;
-    animation: simpleanimation infinite 5s ease;
+  
 }
 .FirstRelease>a>img{
 width:100%;
