@@ -68,6 +68,10 @@ html {
     font-size: 19px;
     letter-spacing: 10px;
 }
+.piano a:hover {
+    color:golden;
+    letter-spacing:12px;
+}
 .adsstyle{
     width:100%;
     justify-content:center;
