@@ -63,13 +63,15 @@ html {
 
 .piano a {
     text-decoration: none;
+    text-transformation:none;
     border: none;
     color: rgb(35, 126, 211);
     font-size: 19px;
     letter-spacing: 10px;
+    transition: 2s all ease-in-out;
 }
 .piano a:hover {
-    color:golden;
+    color:#7339ac;
     letter-spacing:12px;
 }
 .adsstyle{
