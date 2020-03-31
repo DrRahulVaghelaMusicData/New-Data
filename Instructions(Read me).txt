@@ -14,4 +14,6 @@ on mega.nz because it also protects copyright infringement of materials on inter
 
 /--sounds are varying in formats and bit depths so always check your final mix when you use these sounds as they are all high qualities and some might not support your small speakers and will need complete studio setup to mix properly for your song.---///
 
-/---use higher quality headphoes are alternatives with more than stereo chanels are sweet if you have one--//
+/---use higher quality headphones are alternatives with more than stereo chanels are sweet if you have one--//
+
+/---in old devices/windows7, if you dont have updated apps with decoding softwares for the sounds then  they might not sound as they are supposed to. Windows 8 or later has newer in built audio codecs & updated MAC  is fine.--//
