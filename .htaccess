@@ -14,3 +14,7 @@ report-uri https://music.report-uri.com/r/d/csp/reportOnly;
 	no-cache,
 	no-store,
 	must-revalidate'''
+	
+RewriteCond %{HTTP_USER_AGENT} ^-?$
+RewriteCond %{REQUEST_URI} !^(.*)(/feed)(.*)$
+RewriteRule ^ - [F]
