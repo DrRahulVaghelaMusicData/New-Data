@@ -14,6 +14,3 @@ Referrer-Policy ="no-referrer-when-downgrade"
   status = 200
   force = true
 
-RewriteCond %{HTTP_USER_AGENT} ^-?$
-RewriteCond %{REQUEST_URI} !^(.*)(/feed)(.*)$
-RewriteRule ^ - [F]
