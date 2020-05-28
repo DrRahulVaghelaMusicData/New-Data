@@ -8,12 +8,6 @@ Referrer-Policy ="no-referrer-when-downgrade"
     X-Content-Type-Options = "nosniff"
     Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
     
-    # require HTTP 1.1 for POST
-<IfModule mod_rewrite.c>
-	RewriteCond %{THE_REQUEST} ^POST(.*)HTTP/(0\.9|1\.0)$ [NC]
-	RewriteRule .* - [F,L]
-</IfModule>
-    
     [[redirects]]
   from = "https://drrahulvaghelamusic.netlify.com"
   to = "https://www.drrahulvaghelamusic.com"
