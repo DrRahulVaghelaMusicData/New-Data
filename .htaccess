@@ -15,6 +15,8 @@ report-uri https://music.report-uri.com/r/d/csp/reportOnly;
 	no-store,
 	must-revalidate'''
 	
-RewriteCond %{HTTP_USER_AGENT} ^-?$
-RewriteCond %{REQUEST_URI} !^(.*)(/feed)(.*)$
-RewriteRule ^ - [F]
+RewriteCond %{REQUEST_METHOD} !^(HEAD|OPTIONS|POST|PUT)
+RewriteRule .* - [F]
+
+deny from 255.0.0.0
+deny from 192.168.0.1
