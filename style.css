@@ -110,7 +110,7 @@ html{
     left: 0;
     position: fixed;
     height: 300px;
-    background-color: #3a9be0;
+    background-color: #9a13dd;
     z-index: 50;
     justify-content: center;
     align-content: center;
@@ -796,7 +796,7 @@ Font-size:19px;
     }
     .CookiePolicypagepop {
         font-size: 14px;
-        Background-color:#7d42f4;
+        Background-color:#dd13bc;
     }
     .Cookietitl {
         letter-spacing: 1px;
@@ -814,7 +814,7 @@ Font-size:19px;
     }
     .CookiePolicypagepop {
         height: 290px;
-        Background-color:#AB274F;
+        Background-color:#dd13bc;
     }
     .AcceptButtncooki {
         padding-left: 50px;
